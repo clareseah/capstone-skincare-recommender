@@ -58,7 +58,7 @@ if st.button('Show Recommendation'):
     names = output['names']
     url = output['url']
     images = output['images']
-    st.markdown("<br>", unsafe_allow_html = True)
+    st.markdown("<br><br>", unsafe_allow_html = True)
     col1, col2, col3, col4, col5 = st.columns(5, gap = "large")
     
     with col1:
@@ -125,26 +125,29 @@ def add_bg_from_url():
          }}
          
         .css-10trblm, .css-k3w14i {{
-            color: rgb(49, 51, 63);
+            color:  #4F5B67;
         }}
         
-        .st-bx {{
+        .st-bx, .st-fk {{
             background-color: white;
         }}
-        .st-bs {{
+        .st-bs, .st-d9, .css-81oif8 {{
             color: #4F5B67;
         }}
-        .st-f3, .st-bw {{
+        .st-f3, .st-df, .st-fj, .st-bw {{
             border-bottom-color: pink;
         }}
-        .st-f2, .st-bv {{
+        .st-f2, .st-de, .st-fi, .st-bv {{
             border-top-color: pink;
         }}
-        .st-f1, .st-bu {{
+        .st-f1, .st-dd, .st-fh, .st-bu {{
             border-right-color: pink;
         }}
-        .st-f0, .st-bt {{
+        .st-f0, .st-dc, .st-fg, .st-bt {{
             border-left-color: pink;
+        }}
+        .st-bt, .st-ff {{
+            color: #4F5B67
         }}
         .css-18e3th9 {{
             padding-top: 2rem;
