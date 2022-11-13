@@ -40,8 +40,7 @@ st.markdown("""<nav class="navbar navbar-expand-lg navbar-light fixed-top" style
 
 
 st.title("Welcome to Cos Skin! ✨")
-st.header("Your one stop shop for skincare recommendations!")
-st.subheader("Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻")
+st.header("Your one stop shop for skincare recommendations!<br>Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻")
 
 skin_type = st.selectbox('Select your skin type:', ('--SELECT--', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
 skin_age = st.selectbox('Select your age range:', ('--SELECT--','20s', '30s', '40s', '50+', 'Under 20'))
@@ -119,6 +118,16 @@ def add_bg_from_url():
               background-color: rgba(0,0,0,0);
           }}
          
+         .css-af4qln {{
+             padding: 0;
+             margin: 0;
+             
+         }}
+         
+         .css-af4qln h3 {{
+         
+         }}
+         
          .navbar-brand {{
              font-family: monospace;
              border: 1px solid black;
@@ -146,6 +155,9 @@ def add_bg_from_url():
             color: #4f5b67;
         }}
         
+        h1 {{
+            padding: 10px 10px;
+        }}
         
         .css-18e3th9 {{
             padding-top: 2rem;
