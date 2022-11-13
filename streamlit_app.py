@@ -57,30 +57,47 @@ if st.button('Show Recommendation'):
     response = requests.post(f'{api_url}{api_route}', json=json.dumps(profile)) # json.dumps() converts dict to JSON
     output = response.json()
     names = output['names']
+    brand = output['brand']
+    price = output['price']
     url = output['url']
     images = output['images']
     st.markdown("<br><br>", unsafe_allow_html = True)
-    col1, col2, col3, col4, col5 = st.columns(5, gap = "large")
+    col1, col2, col3, col4, col5 = st.columns(5, gap = "medium")
     
     with col1:
         st.markdown(f"[![{names[0]}]({images[0]})]({url[0]})")
-        st.write(names[0])
+        st.write(f"""
+        <p class="brand">{brand[0]}</p>
+        <p class="pdt-name">{names[0]}</p>
+        <p class="pdt-price">${price[0]}</p>""", unsafe_allow_html=True)
 
     with col2:
         st.markdown(f"[![{names[1]}]({images[1]})]({url[1]})")
-        st.write(names[1])
+        st.write(f"""
+        <p class="brand">{brand[1]}</p>
+        <p class="pdt-name">{names[1]}</p>
+        <p class="pdt-price">${price[1]}</p>""", unsafe_allow_html=True)
 
     with col3:
         st.markdown(f"[![{names[2]}]({images[2]})]({url[2]})")
-        st.write(names[2])
+        st.write(f"""
+        <p class="brand">{brand[2]}</p>
+        <p class="pdt-name">{names[2]}</p>
+        <p class="pdt-price">${price[2]}</p>""", unsafe_allow_html=True)
 
     with col4:
         st.markdown(f"[![{names[3]}]({images[3]})]({url[3]})")
-        st.write(names[3])
+        st.write(f"""
+        <p class="brand">{brand[3]}</p>
+        <p class="pdt-name">{names[3]}</p>
+        <p class="pdt-price">${price[3]}</p>""", unsafe_allow_html=True)
 
     with col5:
         st.markdown(f"[![{names[4]}]({images[4]})]({url[4]})")
-        st.write(names[4])
+        st.write(f"""
+        <p class="brand">{brand[4]}</p>
+        <p class="pdt-name">{names[4]}</p>
+        <p class="pdt-price">${price[4]}</p>""", unsafe_allow_html=True)
 
 
 write_footer = """
@@ -150,12 +167,32 @@ def add_bg_from_url():
         }}
         
         .css-af4qln h2 {{
-            padding: 0;
+            padding: 10px 0 0 0;
         }}
         
         .css-af4qln h5 {{
             padding: 0 0 8px 0;
         }}
+        
+        .css-1offfwp>p.brand {{
+            line-height: 18px;        
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 1px;
+        }}
+        
+        .css-1offfwp>p.pdt-name {{
+            line-height: 18px;
+            overflow-wrap: break-word;
+            margin-bottom: 1px;           
+        }}
+        
+        .css-1offfwp>p.pdt-price {{
+            line-height: 18px;        
+            font-weight: 700;
+            margin-bottom: 1px;
+        }}
+        
         .css-18e3th9 {{
             padding-top: 2rem;
         }}
