@@ -178,7 +178,7 @@ def add_bg_from_url():
         .st-bt, .st-ff, .st-cs {{
             color: #4F5B67;
         }}
-        .st-e5 {{
+        .st-e0 {{
             background-color: #FAE2E
         }}
         .st-br {{
@@ -275,6 +275,12 @@ def add_bg_from_url():
         .css-1x8cf1d:hover, .css-5uatcg:hover {{
             border: 1px solid rgba(254, 181, 200);
             color: rgba(254, 181, 200);
+        }}
+        
+        .css-1x8cf1d:active {{
+            color: #4F5B67;
+            border-color: #FAE2E;
+            background-color: #FAE2E;            
         }}
         
                       
