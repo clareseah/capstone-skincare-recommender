@@ -40,7 +40,8 @@ st.markdown("""<nav class="navbar navbar-expand-lg navbar-light fixed-top" style
 
 
 st.title("Welcome to Cos Skin! ✨")
-st.header("Your one stop shop for skincare recommendations!<br>Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻")
+st.header("""Your one stop shop for skincare recommendations!
+          Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻""")
 
 skin_type = st.selectbox('Select your skin type:', ('--SELECT--', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
 skin_age = st.selectbox('Select your age range:', ('--SELECT--','20s', '30s', '40s', '50+', 'Under 20'))
