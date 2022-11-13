@@ -38,9 +38,9 @@ st.markdown("""<nav class="navbar navbar-expand-lg navbar-light fixed-top" style
               </div>
             </nav>""", unsafe_allow_html=True)
 
-
-st.title("Welcome to Cos Skin! ✨")
-st.header("<h3>Your one stop shop for skincare recommendations!<br>Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻</h3>", unsafe_allow_html=True)
+st.write("""<h2>Welcome to Cos Skin! ✨</h2>
+<h5><i>Your one stop shop for skincare recommendations!</i></h5>
+<h5>Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻 </h5>""", unsafe_allow_html=True)
 
 skin_type = st.selectbox('Select your skin type:', ('--SELECT--', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
 skin_age = st.selectbox('Select your age range:', ('--SELECT--','20s', '30s', '40s', '50+', 'Under 20'))
@@ -110,23 +110,13 @@ def add_bg_from_url():
          }}
          
         .css-ffhzg2, css-fg4pbf {{
-            font-family: "Sephora Sans", CenturyGothic, Helvetica, Arial;
+            font-family: CenturyGothic, Helvetica, Arial;
             color: #4F5B67;
         }}
          
          [data-testid = "stHeader"] {{
               background-color: rgba(0,0,0,0);
-          }}
-         
-         .css-af4qln {{
-             padding: 0;
-             margin: 0;
-             
-         }}
-         
-         .css-af4qln h3 {{
-         
-         }}
+          }}         
          
          .navbar-brand {{
              font-family: monospace;
@@ -137,6 +127,11 @@ def add_bg_from_url():
          
         .css-10trblm, .css-k3w14i {{
             color:  #4F5B67;
+        }}
+        
+        .css-81oif8 {{
+            font-family: CenturyGothic, Helvetica, Arial;
+            font-size:
         }}
         
         .st-by, .st-d8, .st-fg, .st-fh, .st-d7, .st-d9 {{
@@ -155,10 +150,13 @@ def add_bg_from_url():
             color: #4f5b67;
         }}
         
-        h1 {{
-            padding: 10px 10px;
+        .css-af4qln h2 {{
+            padding: 0;
         }}
         
+        .css-af4qln h5 {{
+            padding: 0 0 8px 0;
+        }}
         .css-18e3th9 {{
             padding-top: 2rem;
         }}
