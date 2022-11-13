@@ -132,18 +132,18 @@ def add_bg_from_url():
             background-color: white;
         }}
         .st-bs {{
-            color: black;
+            color: #4F5B67;
         }}
-        .st-f3 {{
+        .st-f3, .st-bw {{
             border-bottom-color: pink;
         }}
-        .st-f2 {{
+        .st-f2, .st-bv {{
             border-top-color: pink;
         }}
-        .st-f1 {{
+        .st-f1, .st-bu {{
             border-right-color: pink;
         }}
-        .st-f0 {{
+        .st-f0, .st-bt {{
             border-left-color: pink;
         }}
         .css-18e3th9 {{
