@@ -3,7 +3,7 @@ import requests
 import json
 import base64
 
-st.set_page_config(page_title="Your New Skincare Routine!", page_icon="✨", layout="wide" )
+st.set_page_config(page_title="Cos Skin!", page_icon="✨", layout="wide" )
 st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>', unsafe_allow_html=True)
 st.markdown("""
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -39,12 +39,14 @@ st.markdown("""<nav class="navbar navbar-expand-lg navbar-light fixed-top" style
             </nav>""", unsafe_allow_html=True)
 
 
-st.title("Your New Skin Care Routine!")
+st.title("Welcome to Cos Skin! ✨")
+st.header("Your one stop shop for skincare recommendations!")
+st.subheader("Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻")
 
-skin_type = st.selectbox('Select your skin type:', ('--SELECT--', 'Combination', 'Dry', 'Normal', 'Oily'))
+skin_type = st.selectbox('Select your skin type:', ('--SELECT--', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
 skin_age = st.selectbox('Select your age range:', ('--SELECT--','20s', '30s', '40s', '50+', 'Under 20'))
-skin_concerns = st.multiselect('What are your skin concerns? (You may select up to 5):', ['Sensitive', 'Ageing', 'Blackheads', 'Blemishes', 'Dark circles'])
-formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay', 'Cream', 'Foam', 'Gel', 'Liquid', 'Lotion', 'Mud', 'Oil', 'Powder', 'Wash-off', 'Wipe'])
+skin_concerns = st.multiselect('What are your skin concerns? (You may select up to 5):', ['Ageing', 'Blackheads', 'Blemishes', 'Dark circles', 'Dryness', 'Dullness', 'Fine Lines & Wrinkles', 'Firmness & Elasticity', 'Oiliness', 'Pigmentation & Dark Spots', 'Puffiness', 'Uneven Skin Texture', 'Uneven Skin Tone', 'Visible Pores'])
+formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay', 'Cream', 'Foam', 'Gel', 'Liquid', 'Lotion', 'Mud', 'Oil', 'Powder', 'Spray', 'Wash-off', 'Wipe'])
 
 #submit = st.button('Show Recommendations')
 #user_input = {'Skin type': skin_type, 'Skin concerns': skin_concerns, 'Formulation': formulation, 'Skin age': skin_age}
