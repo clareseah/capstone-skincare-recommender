@@ -61,47 +61,57 @@ if st.button('Show Recommendation'):
     price = output['price']
     url = output['url']
     images = output['images']
-    st.markdown("<br><br>", unsafe_allow_html = True)
+    st.markdown("<br>", unsafe_allow_html = True)
     col1, col2, col3, col4, col5 = st.columns(5, gap = "medium")
     
     with col1:
+        st.write('<p class = "category">Cleanser</p>', unsafe_allow_html=True)
         st.markdown(f"[![{names[0]}]({images[0]})]({url[0]})")
-        st.write(f"""
+        st.write(f"""<div class ="pdt-info">
         <a href="{url[0]}" target="_blank" class = "brand">{brand[0]}</a><br>
         <a href="{url[0]}" target="_blank" class = "pdt-name">{names[0]}</a><br>
         <a href="{url[0]}" target="_blank" class = "pdt-price">${price[0]}</a>
+        </div>
         """, unsafe_allow_html=True)
 
     with col2:
+        st.write('<p class = "category">Toner</p>', unsafe_allow_html=True)
         st.markdown(f"[![{names[1]}]({images[1]})]({url[1]})")
-        st.write(f"""
+        st.write(f"""<div class ="pdt-info">
         <a href="{url[1]}" target="_blank" class = "brand">{brand[1]}</a><br>
         <a href="{url[1]}" target="_blank" class = "pdt-name">{names[1]}</a><br>
         <a href="{url[1]}" target="_blank" class = "pdt-price">${price[1]}</a>
+        </div>
         """, unsafe_allow_html=True)
 
     with col3:
+        st.write('<p class = "category">Day Moisturizer</p>', unsafe_allow_html=True)
         st.markdown(f"[![{names[2]}]({images[2]})]({url[2]})")
-        st.write(f"""
+        st.write(f"""<div class ="pdt-info">
         <a href="{url[2]}" target="_blank" class = "brand">{brand[2]}</a><br>
         <a href="{url[2]}" target="_blank" class = "pdt-name">{names[2]}</a><br>
         <a href="{url[2]}" target="_blank" class = "pdt-price">${price[2]}</a>
+        </div>
         """, unsafe_allow_html=True)
 
     with col4:
+        st.write('<p class = "category">Night Cream</p>', unsafe_allow_html=True)
         st.markdown(f"[![{names[3]}]({images[3]})]({url[3]})")
-        st.write(f"""
+        st.write(f"""<div class ="pdt-info">
         <a href="{url[3]}" target="_blank" class = "brand">{brand[3]}</a><br>
         <a href="{url[3]}" target="_blank" class = "pdt-name">{names[3]}</a><br>
         <a href="{url[3]}" target="_blank" class = "pdt-price">${price[3]}</a>
+        </div>
         """, unsafe_allow_html=True)
 
     with col5:
+        st.write('<p class = "category">Sunscreen</p>', unsafe_allow_html=True)
         st.markdown(f"[![{names[4]}]({images[4]})]({url[4]})")
-        st.write(f"""
+        st.write(f"""<div class ="pdt-info">
         <a href="{url[4]}" target="_blank" class = "brand">{brand[4]}</a><br>
         <a href="{url[4]}" target="_blank" class = "pdt-name">{names[4]}</a><br>
         <a href="{url[4]}" target="_blank" class = "pdt-price">${price[4]}</a>
+        </div>
         """, unsafe_allow_html=True)
 
 
@@ -147,6 +157,10 @@ def add_bg_from_url():
              margin-left: 10px;
          }}
          
+         .nav-link:hover {{
+             text-decoration:none
+         }}
+         
         .css-10trblm, .css-k3w14i {{
             color:  #4F5B67;
         }}
@@ -179,6 +193,14 @@ def add_bg_from_url():
             padding: 0 0 8px 0;
         }}
         
+        .css-1offfwp p.category{{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 700;
+            
+        }}
+        
         .css-1offfwp a.brand {{
             color: #4F5B67;
             text-decoration: none;
@@ -191,6 +213,12 @@ def add_bg_from_url():
             color: #4F5B67;
             text-decoration: none;
             line-height: 18px;        
+        }}
+        
+        .css-1offfwp div.pdt-info {{
+            text-align: center;
+            margin-bottom: 10px;
+        
         }}
         
         .css-1offfwp a.pdt-price {{
@@ -214,10 +242,6 @@ def add_bg_from_url():
             word-wrap: break-word;
             overflow-wrap: break-word;
             margin-bottom: 1px;           
-        }}
-        
-        .css-1offfwp p.pdt-price {{
-            margin: 2px 0 12px;
         }}
         
         .css-18e3th9 {{
