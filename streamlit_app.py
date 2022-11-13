@@ -67,50 +67,55 @@ if st.button('Show Recommendation'):
     with col1:
         st.markdown(f"[![{names[0]}]({images[0]})]({url[0]})")
         st.write(f"""
-        <p class="brand">{brand[0]}</p>
-        <p class="pdt-name">{names[0]}</p>
-        <p class="pdt-price">${price[0]}</p>""", unsafe_allow_html=True)
+        <a href="{url[0]}" target="_blank" class = "brand">{brand[0]}</a><br>
+        <a href="{url[0]}" target="_blank" class = "pdt-name">{names[0]}</a><br>
+        <a href="{url[0]}" target="_blank" class = "pdt-price">${price[0]}</a>
+        """, unsafe_allow_html=True)
 
     with col2:
         st.markdown(f"[![{names[1]}]({images[1]})]({url[1]})")
         st.write(f"""
-        <p class="brand">{brand[1]}</p>
-        <p class="pdt-name">{names[1]}</p>
-        <p class="pdt-price">${price[1]}</p>""", unsafe_allow_html=True)
+        <a href="{url[1]}" target="_blank" class = "brand">{brand[1]}</a><br>
+        <a href="{url[1]}" target="_blank" class = "pdt-name">{names[1]}</a><br>
+        <a href="{url[1]}" target="_blank" class = "pdt-price">${price[1]}</a>
+        """, unsafe_allow_html=True)
 
     with col3:
         st.markdown(f"[![{names[2]}]({images[2]})]({url[2]})")
         st.write(f"""
-        <p class="brand">{brand[2]}</p>
-        <p class="pdt-name">{names[2]}</p>
-        <p class="pdt-price">${price[2]}</p>""", unsafe_allow_html=True)
+        <a href="{url[2]}" target="_blank" class = "brand">{brand[2]}</a><br>
+        <a href="{url[2]}" target="_blank" class = "pdt-name">{names[2]}</a><br>
+        <a href="{url[2]}" target="_blank" class = "pdt-price">${price[2]}</a>
+        """, unsafe_allow_html=True)
 
     with col4:
         st.markdown(f"[![{names[3]}]({images[3]})]({url[3]})")
         st.write(f"""
-        <p class="brand">{brand[3]}</p>
-        <p class="pdt-name">{names[3]}</p>
-        <p class="pdt-price">${price[3]}</p>""", unsafe_allow_html=True)
+        <a href="{url[3]}" target="_blank" class = "brand">{brand[3]}</a><br>
+        <a href="{url[3]}" target="_blank" class = "pdt-name">{names[3]}</a><br>
+        <a href="{url[3]}" target="_blank" class = "pdt-price">${price[3]}</a>
+        """, unsafe_allow_html=True)
 
     with col5:
         st.markdown(f"[![{names[4]}]({images[4]})]({url[4]})")
         st.write(f"""
-        <p class="brand">{brand[4]}</p>
-        <p class="pdt-name">{names[4]}</p>
-        <p class="pdt-price">${price[4]}</p>""", unsafe_allow_html=True)
+        <a href="{url[4]}" target="_blank" class = "brand">{brand[4]}</a><br>
+        <a href="{url[4]}" target="_blank" class = "pdt-name">{names[4]}</a><br>
+        <a href="{url[4]}" target="_blank" class = "pdt-price">${price[4]}</a>
+        """, unsafe_allow_html=True)
 
 
 write_footer = """
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">  
 <br><hr>
 <div style="text-align:center">
-<p>
-  <a href="https://github.com/Clarefairy/shecodes-responsive-portfolio" target="_blank" title="Visit open-source code for this website">
+<p class = "footer">
+  <a href="https://github.com/Clarefairy/shecodes-responsive-portfolio" target="_blank" class = "footer" title="Visit open-source code for this website">
   Open-source code</a> by Clare Seah
 </p>
-<a href="mailto:clareseah@gmail.com" target="_blank" title="Send Clare an email"><i class="far fa-envelope"></i></a>
-<a href="https://www.linkedin.com/in/clare-seah/" target="_blank" title="Visit Clare's LinkedIn profile"><i class="fab fa-linkedin"></i></a>
-<a href="https://github.com/clareseah" target="_blank" title="Visit Clare's github profile"><i class="fab fa-github-square"></i></a>
+<a href="mailto:clareseah@gmail.com" target="_blank" class = "footer" title="Send Clare an email"><i class="far fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/clare-seah/" target="_blank" class = "footer" title="Visit Clare's LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/clareseah" target="_blank" class = "footer" title="Visit Clare's github profile"><i class="fab fa-github-square"></i></a>
 </div>
 """        
         
@@ -174,37 +179,59 @@ def add_bg_from_url():
             padding: 0 0 8px 0;
         }}
         
-        .css-1offfwp>p.brand {{
+        .css-1offfwp a.brand {{
+            color: #4F5B67;
+            text-decoration: none;
             line-height: 18px;        
             font-weight: 700;
             text-transform: uppercase;
-            margin-bottom: 1px;
         }}
         
-        .css-1offfwp>p.pdt-name {{
+        .css-1offfwp a.pdt-name {{
+            color: #4F5B67;
+            text-decoration: none;
+            line-height: 18px;        
+        }}
+        
+        .css-1offfwp a.pdt-price {{
+            color: #4F5B67;
+            text-decoration: none;
+            line-height: 18px;        
+            font-weight: 700;
+        }}
+        
+        .css-1offfwp a.brand:hover, .css-1offfwp a.pdt-name:hover, .css-1offfwp a.pdt-price:hover {{ 
+            color: #C7D0D7;
+            transition: all 200ms ease-in-out;
+        }}
+        
+        .css-1offfwp p {{
+            color: #4F5B67;
+        }}
+        
+        .css-1offfwp p.pdt-name {{
             line-height: 18px;
+            word-wrap: break-word;
             overflow-wrap: break-word;
             margin-bottom: 1px;           
         }}
         
-        .css-1offfwp>p.pdt-price {{
-            line-height: 18px;        
-            font-weight: 700;
-            margin-bottom: 1px;
+        .css-1offfwp p.pdt-price {{
+            margin: 2px 0 12px;
         }}
         
         .css-18e3th9 {{
             padding-top: 2rem;
         }}
         
-        .css-vhjbnf {{
+        .css-vhjbnf, .css-1qz96h7 {{
             padding: 12px;
             border: 1px solid grey;
             border-radius: 25px;
             box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
         }}
         
-        .css-1ghk2ip{{
+        .css-1ghk2ip, .css-v4g7v5 {{
             text-align:center;
         }}
         
@@ -227,7 +254,7 @@ def add_bg_from_url():
         }}
         
                       
-        .css-1offfwp p, .css-1fv8s86 p {{
+        .css-1offfwp p.footer, .css-1fv8s86 p.footer {{
             font-size: 16px;
             margin-top: auto 10px;
         }}
@@ -244,12 +271,12 @@ def add_bg_from_url():
             transition: all 200ms ease-in-out;
         }}
         
-        .css-1offfwp a, .css-1fv8s86 a {{
+        .css-1offfwp a.footer, .css-1fv8s86 a.footer {{
             color: #f65282;
             text-decoration: none;
         }}
 
-        .css-1offfwp a:hover, .css-1fv8s86 a:hover {{
+        .css-1offfwp a:hover.footer, .css-1fv8s86 a:hover {{
             color: #ffc4c0;
             transition: all 200ms ease-in-out;
         }}
