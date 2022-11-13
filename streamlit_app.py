@@ -128,23 +128,11 @@ def add_bg_from_url():
             color:  #4F5B67;
         }}
         
-        .st-bx, .st-fk, .st-gd {{
-            background-color: white;
-        }}
-        .st-bs, .st-d9, .css-81oif8, .st-g8 {{
+       
+        st-au st-ax st-av st-aw st-bf st-bh st-b8 st-b3 st-b4 st-bi st-bj st-bk st-bl st-bm st-bn st-bo st-bp st-bq st-br st-b1 st-bs st-fd st-fe st-ff st-fg st-fh st-fi {{
+            border-color: pink;
             color: #4F5B67;
-        }}
-        .st-f3, .st-df, .st-fj, .st-bw, .st-gc {{
-            border-bottom-color: pink;
-        }}
-        .st-f2, .st-de, .st-fi, .st-bv, .st-gb {{
-            border-top-color: pink;
-        }}
-        .st-f1, .st-dd, .st-fh, .st-bu, .st-ga {{
-            border-right-color: pink;
-        }}
-        .st-f0, .st-dc, .st-fg, .st-bt, .st-g9 {{
-            border-left-color: pink;
+            background-color: white;
         }}
         .st-bt, .st-ff, .st-cs {{
             color: #4F5B67
