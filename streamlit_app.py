@@ -169,7 +169,7 @@ def add_bg_from_url():
             font-family: CenturyGothic, Helvetica, Arial;
         }}
         
-        .st-by, .st-d8, .st-fg, .st-fh, .st-d7, .st-d9 {{
+        .st-bx, .st-by, .st-bw, .st-d8, .st-fg, .st-fh, .st-d7, .st-d9 {{
             border-color: pink;
             color: #4F5B67;
             background-color: white;
@@ -183,8 +183,21 @@ def add_bg_from_url():
             background-color: pink;
         }}
         
-        .st-br {{
+        .st-dz {{
+            color: white;
+        }}
+        
+        .st-dh {{
+            background-color: white;
+        }}
+        
+        .st-bs, .st-br {{
             color: #4f5b67;
+        }}
+        
+        .css-c2zpwa, .css-c2zpwa:hover {{
+            background: rgb(240, 242, 246);
+        
         }}
         
         .css-af4qln h2 {{
