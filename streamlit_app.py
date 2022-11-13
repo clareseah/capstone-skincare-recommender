@@ -179,15 +179,15 @@ def add_bg_from_url():
             color: #4F5B67;
         }}
         
-        .st-e0 {{
+        .st-e0, .st-e8 {{
             background-color: pink;
         }}
         
-        .st-dz {{
+        .st-dz, .st-e7 {{
             color: white;
         }}
         
-        .st-dh {{
+        .st-dh, .st-di {{
             background-color: white;
         }}
         
@@ -208,7 +208,7 @@ def add_bg_from_url():
             padding: 0 0 8px 0;
         }}
         
-        .css-1offfwp p.category{{
+        .css-1offfwp p.category, .css-1fv8s86 p.category {{
             text-align: center;
             text-transform: uppercase;
             font-size: 18px;
@@ -216,7 +216,7 @@ def add_bg_from_url():
             
         }}
         
-        .css-1offfwp a.brand {{
+        .css-1offfwp a.brand, .css-1fv8s86 a.brand {{
             color: #4F5B67;
             text-decoration: none;
             line-height: 18px;        
@@ -224,35 +224,35 @@ def add_bg_from_url():
             text-transform: uppercase;
         }}
         
-        .css-1offfwp a.pdt-name {{
+        .css-1offfwp a.pdt-name, .css-1fv8s86 a.pdt-name {{
             color: #4F5B67;
             text-decoration: none;
             line-height: 18px;        
         }}
         
-        .css-1offfwp div.pdt-info {{
+        .css-1offfwp div.pdt-info, .css-1fv8s86 div.pdt-info {{
             text-align: center;
             margin-bottom: 10px;
         
         }}
         
-        .css-1offfwp a.pdt-price {{
+        .css-1offfwp a.pdt-price, .css-1fv8s86 a.pdt-price {{
             color: #4F5B67;
             text-decoration: none;
             line-height: 18px;        
             font-weight: 700;
         }}
         
-        .css-1offfwp a.brand:hover, .css-1offfwp a.pdt-name:hover, .css-1offfwp a.pdt-price:hover {{ 
+        .css-1offfwp a.brand:hover, .css-1offfwp a.pdt-name:hover, .css-1offfwp a.pdt-price:hover, .css-1fv8s86 a.brand:hover, .css-1fv8s86 a.pdt-name:hover, .css-1fv8s86 a.pdt-price:hover {{ 
             color: #C7D0D7;
             transition: all 200ms ease-in-out;
         }}
         
-        .css-1offfwp p {{
+        .css-1offfwp p, .css-1fv8s86 p {{
             color: #4F5B67;
         }}
         
-        .css-1offfwp p.pdt-name {{
+        .css-1offfwp p.pdt-name, .css-1fv8s86 p.pdt-name {{
             line-height: 18px;
             word-wrap: break-word;
             overflow-wrap: break-word;
