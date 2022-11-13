@@ -14,7 +14,7 @@ hide_menu_style = """
         #MainMenu {visibility: hidden;}
         </style>
         """
-#st.markdown(hide_menu_style, unsafe_allow_html=True)
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 st.markdown("""<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#fff1f5">
               <div class="container-fluid">
