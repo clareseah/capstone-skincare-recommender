@@ -131,7 +131,6 @@ def add_bg_from_url():
         
         .css-81oif8 {{
             font-family: CenturyGothic, Helvetica, Arial;
-            font-size:
         }}
         
         .st-by, .st-d8, .st-fg, .st-fh, .st-d7, .st-d9 {{
