@@ -128,17 +128,20 @@ def add_bg_from_url():
             color:  #4F5B67;
         }}
         
-        .st-by, .st-d8, .st-fg, .st-fh {{
+        .st-by, .st-d8, .st-fg, .st-fh, .st-d7 {{
             border-color: pink;
             color: #4F5B67;
             background-color: white;
         }}
         
         .st-bt, .st-ff, .st-cs {{
-            color: #4F5B67
+            color: #4F5B67;
         }}
         .st-e5 {{
             background-color: #FAE2E
+        }}
+        .st-br {{
+            color: #4f5b67;
         }}
         
         
