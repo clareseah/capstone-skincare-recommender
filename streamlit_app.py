@@ -110,7 +110,7 @@ def add_bg_from_url():
          
         .css-ffhzg2, css-fg4pbf {{
             font-family: "Sephora Sans", CenturyGothic, Helvetica, Arial;
-            color: rgb(49, 51, 63);
+            color: #4F5B67;
         }}
          
          [data-testid = "stHeader"] {{
@@ -128,8 +128,24 @@ def add_bg_from_url():
             color: rgb(49, 51, 63);
         }}
         
-        
-    
+        .st-bx {{
+            background-color: white;
+        }}
+        .st-bs {{
+            color: black;
+        }}
+        .st-f3 {{
+            border-bottom-color: pink;
+        }}
+        .st-f2 {{
+            border-top-color: pink;
+        }}
+        .st-f1 {{
+            border-right-color: pink;
+        }}
+        .st-f0 {{
+            border-left-color: pink;
+        }}
         .css-18e3th9 {{
             padding-top: 2rem;
         }}
