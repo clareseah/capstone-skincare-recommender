@@ -39,11 +39,11 @@ st.markdown("""<nav class="navbar navbar-expand-lg navbar-light fixed-top" style
             </nav>""", unsafe_allow_html=True)
 
 st.write("""<h2>Welcome to Cos Skin! ✨</h2>
-<h5><i>Your one stop shop for skincare recommendations!</i></h5>
+<h5><i>Your one-stop shop for skincare recommendations!</i></h5>
 <h5>Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻 </h5>""", unsafe_allow_html=True)
 
-skin_type = st.selectbox('Select your skin type:', ('--SELECT--', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
-skin_age = st.selectbox('Select your age range:', ('--SELECT--','20s', '30s', '40s', '50+', 'Under 20'))
+skin_age = st.selectbox('Select your age range:', ('Choose an option','20s', '30s', '40s', '50+', 'Under 20'))
+skin_type = st.selectbox('Select your skin type:', ('Choose an option', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
 skin_concerns = st.multiselect('What are your skin concerns? (You may select up to 5):', ['Ageing', 'Blackheads', 'Blemishes', 'Dark circles', 'Dryness', 'Dullness', 'Fine Lines & Wrinkles', 'Firmness & Elasticity', 'Oiliness', 'Pigmentation & Dark Spots', 'Puffiness', 'Uneven Skin Texture', 'Uneven Skin Tone', 'Visible Pores'])
 formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay', 'Cream', 'Foam', 'Gel', 'Liquid', 'Lotion', 'Mud', 'Oil', 'Powder', 'Spray', 'Wash-off', 'Wipe'])
 
@@ -175,7 +175,7 @@ def add_bg_from_url():
         img {{
             margin: auto;
             display: block;
-            width: 250px;
+            width: 180px;
             
         }}
        
