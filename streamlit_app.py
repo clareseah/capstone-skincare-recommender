@@ -178,9 +178,11 @@ def add_bg_from_url():
         .st-bt, .st-ff, .st-cs {{
             color: #4F5B67;
         }}
+        
         .st-e0 {{
-            background-color: #FAE2E;
+            background-color: pink;
         }}
+        
         .st-br {{
             color: #4f5b67;
         }}
