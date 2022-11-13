@@ -128,12 +128,12 @@ def add_bg_from_url():
             color:  #4F5B67;
         }}
         
-       
-        .st-au .st-ax .st-av .st-aw .st-bf .st-bh .st-b8 .st-b3 .st-b4 .st-bi .st-bj .st-bk .st-bl .st-bm .st-bn .st-bo .st-bp .st-bq .st-br .st-b1 .st-bs .st-fd .st-fe .st-ff .st-fg .st-fh .st-fi {{
+        .st-by, .st-d8, .st-fg, .st-fh {{
             border-color: pink;
             color: #4F5B67;
             background-color: white;
         }}
+        
         .st-bt, .st-ff, .st-cs {{
             color: #4F5B67
         }}
