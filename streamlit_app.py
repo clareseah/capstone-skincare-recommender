@@ -128,7 +128,7 @@ def add_bg_from_url():
             color:  #4F5B67;
         }}
         
-        .st-by, .st-d8, .st-fg, .st-fh, .st-d7 {{
+        .st-by, .st-d8, .st-fg, .st-fh, .st-d7, .st-d9 {{
             border-color: pink;
             color: #4F5B67;
             background-color: white;
