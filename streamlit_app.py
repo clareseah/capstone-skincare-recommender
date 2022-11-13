@@ -179,7 +179,7 @@ def add_bg_from_url():
             color: #4F5B67;
         }}
         .st-e0 {{
-            background-color: #FAE2E
+            background-color: #FAE2E;
         }}
         .st-br {{
             color: #4f5b67;
@@ -275,14 +275,7 @@ def add_bg_from_url():
         .css-1x8cf1d:hover, .css-5uatcg:hover {{
             border: 1px solid rgba(254, 181, 200);
             color: rgba(254, 181, 200);
-        }}
-        
-        .css-1x8cf1d:active {{
-            color: #4F5B67;
-            border-color: #FAE2E;
-            background-color: #FAE2E;            
-        }}
-        
+        }}        
                       
         .css-1offfwp p.footer, .css-1fv8s86 p.footer {{
             font-size: 16px;
