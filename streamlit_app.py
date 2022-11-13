@@ -183,7 +183,7 @@ def add_bg_from_url():
             background-color: pink;
         }}
         
-        .st-dz, .st-e7 {{
+        .st-dz, .st-e7, .st-br {{
             color: white;
         }}
         
@@ -191,7 +191,11 @@ def add_bg_from_url():
             background-color: white;
         }}
         
-        .st-bs, .st-br {{
+        .st-bs {{
+            color: #4f5b67;
+        }}
+        
+        .css-8ojfln {{
             color: #4f5b67;
         }}
         
