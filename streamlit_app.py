@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import json
-import base64
 
 st.set_page_config(page_title="Cos Skin!", page_icon="✨", layout="wide" )
 st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>', unsafe_allow_html=True)
@@ -45,7 +44,7 @@ st.write("""<h2>Welcome to Cos Skin! ✨</h2>
 skin_age = st.selectbox('Select your age range:', ('Choose an option','20s', '30s', '40s', '50+', 'Under 20'))
 skin_type = st.selectbox('Select your skin type:', ('Choose an option', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
 skin_concerns = st.multiselect('What are your skin concerns? (You may select up to 5):', ['Ageing', 'Blackheads', 'Blemishes', 'Dark Circles', 'Dryness', 'Dullness', 'Fine Lines & Wrinkles', 'Firmness & Elasticity', 'Oiliness', 'Pigmentation & Dark Spots', 'Puffiness', 'Uneven Skin Texture', 'Uneven Skin Tone', 'Visible Pores'])
-formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay/Mud', 'Cream', 'Foam', 'Gel', 'Loose Powder', 'Liquid', 'Lotion', 'Oil', 'Powder', 'Spray', 'Wipe'])
+formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay/Mud', 'Cream', 'Foam', 'Gel', 'Loose Powder', 'Liquid', 'Lotion', 'Oil', 'Powder', 'Sheet', 'Spray', 'Wipe'])
 
 if skin_age == 'Under 20':
     age_under20 = 1
@@ -210,6 +209,10 @@ if 'Powder' in formulation:
     formula_powder = 1
 else:
     formula_powder = 0
+if 'Sheet' in formulation:
+    formula_sheet = 1
+else: 
+    formula_sheet = 0
 if 'Spray' in formulation:
     formula_spray = 1
 else:
@@ -229,7 +232,7 @@ if st.button('Show Recommendation'):
                   'Dullness':concerns_dullness, 'FineLines&Wrinkles':concerns_finelines_wrinkles, 'Firmness&Elasticity':concerns_firmness_elasticity, 'Oiliness':concerns_oiliness, 'Pigmentation&DarkSpots':concerns_pigmentation_darkspots, 
                   'Puffiness':concerns_puffiness, 'UnevenSkinTexture':concerns_uneven_skin_texture, 'UnevenSkinTone':concerns_uneven_skin_tone, 'VisiblePores':concerns_visible_pores, 
                   'Balm':formula_balm, 'Bar':formula_bar, 'ClayMud':formula_clay_mud, 'Cream':formula_cream, 'Foam':formula_foam, 
-                  'Gel':formula_gel, 'Liquid':formula_liquid, 'Lotion':formula_lotion, 'Oil':formula_oil, 'Powder':formula_powder, 'Spray':formula_spray, 'Wipe':formula_wipe}
+                  'Gel':formula_gel, 'Liquid':formula_liquid, 'LoosePowder':formulation_loose_powder, 'Lotion':formula_lotion, 'Oil':formula_oil, 'Powder':formula_powder, 'Sheet':formula_sheet, 'Spray':formula_spray, 'Wipe':formula_wipe}
     
     api_url = 'https://capstone-2h5cv6z6ba-as.a.run.app'
     api_route = '/recommendations'
@@ -269,7 +272,7 @@ if st.button('Show Recommendation'):
     
     st.markdown("<br>", unsafe_allow_html = True)
     
-    col1, col2, col3, col4, col5 = st.columns(2, gap = "medium")
+    col1, col2, col3, col4, col5 = st.columns(5, gap = "medium")
     
     with col1:
         st.write('<p class = "category">Cleanser</p>', unsafe_allow_html=True)
@@ -282,7 +285,7 @@ if st.button('Show Recommendation'):
         """, unsafe_allow_html=True)
         
     with col2:
-        st.write('<p class = "category">Cleanser</p>', unsafe_allow_html=True)
+        st.write('<p class = "category">Toner</p>', unsafe_allow_html=True)
         st.markdown(f"[![{toner_name}]({toner_image})]({toner_url})")
         st.write(f"""<div class ="pdt-info">
         <a href="{toner_url}" target="_blank" class = "brand">{toner_brand}</a><br>
