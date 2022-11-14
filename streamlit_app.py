@@ -44,73 +44,280 @@ st.write("""<h2>Welcome to Cos Skin! ✨</h2>
 
 skin_age = st.selectbox('Select your age range:', ('Choose an option','20s', '30s', '40s', '50+', 'Under 20'))
 skin_type = st.selectbox('Select your skin type:', ('Choose an option', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
-skin_concerns = st.multiselect('What are your skin concerns? (You may select up to 5):', ['Ageing', 'Blackheads', 'Blemishes', 'Dark circles', 'Dryness', 'Dullness', 'Fine Lines & Wrinkles', 'Firmness & Elasticity', 'Oiliness', 'Pigmentation & Dark Spots', 'Puffiness', 'Uneven Skin Texture', 'Uneven Skin Tone', 'Visible Pores'])
-formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay', 'Cream', 'Foam', 'Gel', 'Liquid', 'Lotion', 'Mud', 'Oil', 'Powder', 'Spray', 'Wash-off', 'Wipe'])
+skin_concerns = st.multiselect('What are your skin concerns? (You may select up to 5):', ['Ageing', 'Blackheads', 'Blemishes', 'Dark Circles', 'Dryness', 'Dullness', 'Fine Lines & Wrinkles', 'Firmness & Elasticity', 'Oiliness', 'Pigmentation & Dark Spots', 'Puffiness', 'Uneven Skin Texture', 'Uneven Skin Tone', 'Visible Pores'])
+formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay/Mud', 'Cream', 'Foam', 'Gel', 'Loose Powder', 'Liquid', 'Lotion', 'Oil', 'Powder', 'Spray', 'Wipe'])
 
+if skin_age == 'Under 20':
+    age_under20 = 1
+    age_20s = 0
+    age_30s = 0
+    age_40s = 0
+    age_50s = 0
+elif skin_age == '20s': 
+    age_under20 = 0
+    age_20s = 1
+    age_30s = 0
+    age_40s = 0
+    age_50s = 0
+elif skin_age == '30s':
+    age_under20 = 0
+    age_20s = 0
+    age_30s = 1
+    age_40s = 0
+    age_50s = 0
+elif skin_age == '40s':
+    age_under20 = 0
+    age_20s = 0
+    age_30s = 0
+    age_40s = 1
+    age_50s = 0
+elif skin_age == '50s':
+    age_under20 = 0
+    age_20s = 0
+    age_30s = 0
+    age_40s = 0
+    age_50s = 1
+
+if skin_type == 'Combination':
+    type_combi = 1
+    type_dry = 0
+    type_normal = 0
+    type_oily = 0
+    type_sensitive = 0
+elif skin_type == 'Dry':
+    type_combi = 0
+    type_dry = 1
+    type_normal = 0
+    type_oily = 0
+    type_sensitive = 0
+elif skin_type == 'Normal':
+    type_combi = 0
+    type_dry = 0
+    type_normal = 1
+    type_oily = 0
+    type_sensitive = 0
+elif skin_type == 'Oily':
+    type_combi = 0
+    type_dry = 0
+    type_normal = 0
+    type_oily = 1
+    type_sensitive = 0
+elif skin_type == 'Sensitive':
+    type_combi = 0
+    type_dry = 0
+    type_normal = 0
+    type_oily = 0
+    type_sensitive = 1
+
+if 'Ageing' in skin_concerns:
+    concerns_ageing = 1
+else:
+    concerns_ageing = 0
+if 'Blackheads' in skin_concerns:
+    concerns_blackheads = 1
+else:
+    concerns_blackheads = 0
+if 'Blemishes' in skin_concerns:
+    concerns_blemishes = 1
+else:
+    concerns_blemishes = 0
+if 'Dark Circles' in skin_concerns:
+    concerns_darkcircles = 1
+else:
+    concerns_darkcircles = 0
+if 'Dryness' in skin_concerns:
+    concerns_dryness = 1
+else:
+    concerns_dryness = 0
+if 'Dullness' in skin_concerns:
+    concerns_dullness = 1
+else:
+    concerns_dullness = 0
+if 'Fine Lines & Wrinkles' in skin_concerns:
+    concerns_finelines_wrinkles = 1
+else: 
+    concerns_finelines_wrinkles = 0
+if 'Firmness & Elasticity' in skin_concerns:
+    concerns_firmness_elasticity = 1
+else:
+    concerns_firmness_elasticity = 0
+if 'Oiliness' in skin_concerns:
+    concerns_oiliness = 1
+else: 
+    concerns_oiliness = 0
+if 'Pigmentation & Dark Spots' in skin_concerns:
+    concerns_pigmentation_darkspots = 1
+else:
+    concerns_pigmentation_darkspots = 0
+if 'Puffiness' in skin_concerns:
+    concerns_puffiness = 1
+else: 
+    concerns_puffiness = 0
+if 'Uneven Skin Texture' in skin_concerns:
+    concerns_uneven_skin_texture = 1
+else: 
+    concerns_uneven_skin_texture = 0
+if 'Uneven Skin Tone' in skin_concerns:
+    concerns_uneven_skin_tone = 1
+else: 
+    concerns_uneven_skin_tone = 0
+if 'Visible Pores' in skin_concerns:
+    concerns_visible_pores = 1
+else:
+    concerns_visible_pores = 0
+    
+if 'Balm' in formulation:
+    formula_balm = 1
+else:
+    formula_balm = 0
+if 'Bar' in formulation:
+    formula_bar = 1
+else: 
+    formula_bar = 0
+if 'Clay/Mud' in formulation:
+    formula_clay_mud = 1
+else: 
+    formula_clay_mud = 0
+if 'Cream' in formulation:
+    formula_cream = 1
+else:
+    formula_cream = 0
+if 'Foam' in formulation:
+    formula_foam = 1
+else:
+    formula_foam = 0
+if 'Gel' in formulation:
+    formula_gel = 1
+else:
+    formula_gel = 0
+if 'Liquid' in formulation:
+    formula_liquid = 1
+else:
+    formula_liquid = 0
+if 'Loose Powder' in formulation:
+    formulation_loose_powder = 1
+else:
+    formulation_loose_powder = 0
+if 'Lotion' in formulation:
+    formula_lotion = 1
+else:
+    formula_lotion = 0
+if 'Oil' in formulation:
+    formula_oil = 1
+else:
+    formula_oil = 0
+if 'Powder' in formulation:
+    formula_powder = 1
+else:
+    formula_powder = 0
+if 'Spray' in formulation:
+    formula_spray = 1
+else:
+    formula_spray = 0
+if 'Wipe' in formulation:
+    formula_wipe = 1
+else:
+    formula_wipe = 0   
+    
 #submit = st.button('Show Recommendations')
 #user_input = {'Skin type': skin_type, 'Skin concerns': skin_concerns, 'Formulation': formulation, 'Skin age': skin_age}
 if st.button('Show Recommendation'):
     
+    user_input = {'Under20':age_under20, '20s':age_20s, '30s':age_30s, '40s':age_40s, '50+':age_50s, 
+                  'Combination':type_combi, 'Dry':type_dry, 'Normal':type_normal, 'Oily':type_oily, 'Sensitive':type_sensitive,
+                  'Ageing':concerns_ageing, 'Blackheads':concerns_blackheads, 'Blemishes':concerns_blemishes, 'DarkCircles':concerns_darkcircles, 'Dryness':concerns_dryness, 
+                  'Dullness':concerns_dullness, 'FineLines&Wrinkles':concerns_finelines_wrinkles, 'Firmness&Elasticity':concerns_firmness_elasticity, 'Oiliness':concerns_oiliness, 'Pigmentation&DarkSpots':concerns_pigmentation_darkspots, 
+                  'Puffiness':concerns_puffiness, 'UnevenSkinTexture':concerns_uneven_skin_texture, 'UnevenSkinTone':concerns_uneven_skin_tone, 'VisiblePores':concerns_visible_pores, 
+                  'Balm':formula_balm, 'Bar':formula_bar, 'ClayMud':formula_clay_mud, 'Cream':formula_cream, 'Foam':formula_foam, 
+                  'Gel':formula_gel, 'Liquid':formula_liquid, 'Lotion':formula_lotion, 'Oil':formula_oil, 'Powder':formula_powder, 'Spray':formula_spray, 'Wipe':formula_wipe}
+    
     api_url = 'https://capstone-2h5cv6z6ba-as.a.run.app'
-    api_route = '/random'
-    profile={}
-    response = requests.post(f'{api_url}{api_route}', json=json.dumps(profile)) # json.dumps() converts dict to JSON
+    api_route = '/recommendations'
+
+    response = requests.post(f'{api_url}{api_route}', json=json.dumps(user_input)) # json.dumps() converts dict to JSON
     output = response.json()
-    names = output['names']
-    brand = output['brand']
-    price = output['price']
-    url = output['url']
-    images = output['images']
+ 
+    cleanser_name = output['cleanser_name']
+    cleanser_brand = output['cleanser_brand']
+    cleanser_price = output['cleanser_price']
+    cleanser_url = output['cleanser_url']
+    cleanser_image = output['cleanser_image']
+
+    toner_name = output['toner_name']
+    toner_brand = output['toner_brand']
+    toner_price = output['toner_price']
+    toner_url = output['toner_url']
+    toner_image = output['toner_image']
+
+    day_moisturizer_name = output['day_moisturizer_name']
+    day_moisturizer_brand = output['day_moisturizer_brand']
+    day_moisturizer_price = output['day_moisturizer_price']
+    day_moisturizer_url = output['day_moisturizer_url']
+    day_moisturizer_image = output['day_moisturizer_image']
+
+    night_cream_name = output['night_cream_name']
+    night_cream_brand = output['night_cream_brand']
+    night_cream_price = output['night_cream_price']
+    night_cream_url = output['night_cream_url']
+    night_cream_image = output['night_cream_image']
+
+    sunscreen_name = output['sunscreen_name']
+    sunscreen_brand = output['sunscreen_brand']
+    sunscreen_price = output['sunscreen_price']
+    sunscreen_url = output['sunscreen_url']
+    sunscreen_image = output['sunscreen_image']
+    
     st.markdown("<br>", unsafe_allow_html = True)
-    col1, col2, col3, col4, col5 = st.columns(5, gap = "medium")
+    
+    col1, col2, col3, col4, col5 = st.columns(2, gap = "medium")
     
     with col1:
         st.write('<p class = "category">Cleanser</p>', unsafe_allow_html=True)
-        st.markdown(f"[![{names[0]}]({images[0]})]({url[0]})")
+        st.markdown(f"[![{cleanser_name}]({cleanser_image})]({cleanser_url})")
         st.write(f"""<div class ="pdt-info">
-        <a href="{url[0]}" target="_blank" class = "brand">{brand[0]}</a><br>
-        <a href="{url[0]}" target="_blank" class = "pdt-name">{names[0]}</a><br>
-        <a href="{url[0]}" target="_blank" class = "pdt-price">${price[0]}</a>
+        <a href="{cleanser_url}" target="_blank" class = "brand">{cleanser_brand}</a><br>
+        <a href="{cleanser_url}" target="_blank" class = "pdt-name">{cleanser_name}</a><br>
+        <a href="{cleanser_url}" target="_blank" class = "pdt-price">${cleanser_price}</a>
         </div>
         """, unsafe_allow_html=True)
-
+        
     with col2:
-        st.write('<p class = "category">Toner</p>', unsafe_allow_html=True)
-        st.markdown(f"[![{names[1]}]({images[1]})]({url[1]})")
+        st.write('<p class = "category">Cleanser</p>', unsafe_allow_html=True)
+        st.markdown(f"[![{toner_name}]({toner_image})]({toner_url})")
         st.write(f"""<div class ="pdt-info">
-        <a href="{url[1]}" target="_blank" class = "brand">{brand[1]}</a><br>
-        <a href="{url[1]}" target="_blank" class = "pdt-name">{names[1]}</a><br>
-        <a href="{url[1]}" target="_blank" class = "pdt-price">${price[1]}</a>
+        <a href="{toner_url}" target="_blank" class = "brand">{toner_brand}</a><br>
+        <a href="{toner_url}" target="_blank" class = "pdt-name">{toner_name}</a><br>
+        <a href="{toner_url}" target="_blank" class = "pdt-price">${toner_price}</a>
         </div>
         """, unsafe_allow_html=True)
 
     with col3:
         st.write('<p class = "category">Day Moisturizer</p>', unsafe_allow_html=True)
-        st.markdown(f"[![{names[2]}]({images[2]})]({url[2]})")
+        st.markdown(f"[![{day_moisturizer_name}]({day_moisturizer_image})]({day_moisturizer_url})")
         st.write(f"""<div class ="pdt-info">
-        <a href="{url[2]}" target="_blank" class = "brand">{brand[2]}</a><br>
-        <a href="{url[2]}" target="_blank" class = "pdt-name">{names[2]}</a><br>
-        <a href="{url[2]}" target="_blank" class = "pdt-price">${price[2]}</a>
+        <a href="{day_moisturizer_url}" target="_blank" class = "brand">{day_moisturizer_brand}</a><br>
+        <a href="{day_moisturizer_url}" target="_blank" class = "pdt-name">{day_moisturizer_name}</a><br>
+        <a href="{day_moisturizer_url}" target="_blank" class = "pdt-price">${day_moisturizer_price}</a>
         </div>
         """, unsafe_allow_html=True)
 
     with col4:
         st.write('<p class = "category">Night Cream</p>', unsafe_allow_html=True)
-        st.markdown(f"[![{names[3]}]({images[3]})]({url[3]})")
+        st.markdown(f"[![{night_cream_name}]({night_cream_image})]({night_cream_url})")
         st.write(f"""<div class ="pdt-info">
-        <a href="{url[3]}" target="_blank" class = "brand">{brand[3]}</a><br>
-        <a href="{url[3]}" target="_blank" class = "pdt-name">{names[3]}</a><br>
-        <a href="{url[3]}" target="_blank" class = "pdt-price">${price[3]}</a>
+        <a href="{night_cream_url}" target="_blank" class = "brand">{night_cream_brand}</a><br>
+        <a href="{night_cream_url}" target="_blank" class = "pdt-name">{night_cream_name}</a><br>
+        <a href="{night_cream_url}" target="_blank" class = "pdt-price">${night_cream_price}</a>
         </div>
         """, unsafe_allow_html=True)
 
     with col5:
         st.write('<p class = "category">Sunscreen</p>', unsafe_allow_html=True)
-        st.markdown(f"[![{names[4]}]({images[4]})]({url[4]})")
+        st.markdown(f"[![{sunscreen_name}]({sunscreen_image})]({sunscreen_url})")
         st.write(f"""<div class ="pdt-info">
-        <a href="{url[4]}" target="_blank" class = "brand">{brand[4]}</a><br>
-        <a href="{url[4]}" target="_blank" class = "pdt-name">{names[4]}</a><br>
-        <a href="{url[4]}" target="_blank" class = "pdt-price">${price[4]}</a>
+        <a href="{sunscreen_url}" target="_blank" class = "brand">{sunscreen_brand}</a><br>
+        <a href="{sunscreen_url}" target="_blank" class = "pdt-name">{sunscreen_name}</a><br>
+        <a href="{sunscreen_url}" target="_blank" class = "pdt-price">${sunscreen_price}</a>
         </div>
         """, unsafe_allow_html=True)
 
