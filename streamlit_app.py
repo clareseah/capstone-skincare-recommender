@@ -226,7 +226,16 @@ else:
 #user_input = {'Skin type': skin_type, 'Skin concerns': skin_concerns, 'Formulation': formulation, 'Skin age': skin_age}
 if st.button('Show Recommendation'):
     
-    user_input = {'Under20':age_under20, '20s':age_20s, '30s':age_30s, '40s':age_40s, '50+':age_50s, 'Combination':type_combi, 'Dry':type_dry, 'Normal':type_normal, 'Oily':type_oily, 'Sensitive':type_sensitive, 'Ageing':concerns_ageing, 'Blackheads':concerns_blackheads, 'Blemishes':concerns_blemishes, 'DarkCircles':concerns_darkcircles, 'Dryness':concerns_dryness,  'Dullness':concerns_dullness, 'FineLines&Wrinkles':concerns_finelines_wrinkles, 'Firmness&Elasticity':concerns_firmness_elasticity, 'Oiliness':concerns_oiliness, 'Pigmentation&DarkSpots':concerns_pigmentation_darkspots, 'Puffiness':concerns_puffiness, 'UnevenSkinTexture':concerns_uneven_skin_texture, 'UnevenSkinTone':concerns_uneven_skin_tone, 'VisiblePores':concerns_visible_pores,  'Balm':formula_balm, 'Bar':formula_bar, 'ClayMud':formula_clay_mud, 'Cream':formula_cream, 'Foam':formula_foam,  'Gel':formula_gel, 'Liquid':formula_liquid, 'LoosePowder':formulation_loose_powder, 'Lotion':formula_lotion, 'Oil':formula_oil, 'Powder':formula_powder, 'Sheet':formula_sheet, 'Spray':formula_spray, 'Wipe':formula_wipe}
+    user_input = {'Under20':age_under20, '20s':age_20s, '30s':age_30s, '40s':age_40s, '50+':age_50s, 
+                  'Combination':type_combi, 'Dry':type_dry, 'Normal':type_normal, 'Oily':type_oily, 'Sensitive':type_sensitive, 
+                  'Ageing':concerns_ageing, 'Blackheads':concerns_blackheads, 'Blemishes':concerns_blemishes, 'DarkCircles':concerns_darkcircles, 
+                  'Dryness':concerns_dryness,  'Dullness':concerns_dullness, 'FineLines&Wrinkles':concerns_finelines_wrinkles, 
+                  'Firmness&Elasticity':concerns_firmness_elasticity, 'Oiliness':concerns_oiliness, 
+                  'Pigmentation&DarkSpots':concerns_pigmentation_darkspots, 'Puffiness':concerns_puffiness, 
+                  'UnevenSkinTexture':concerns_uneven_skin_texture, 'UnevenSkinTone':concerns_uneven_skin_tone, 'VisiblePores':concerns_visible_pores,  
+                  'Balm':formula_balm, 'Bar':formula_bar, 'ClayMud':formula_clay_mud, 'Cream':formula_cream, 'Foam':formula_foam,  
+                  'Gel':formula_gel, 'Liquid':formula_liquid, 'LoosePowder':formulation_loose_powder, 'Lotion':formula_lotion, 'Oil':formula_oil, 
+                  'Powder':formula_powder, 'Sheet':formula_sheet, 'Spray':formula_spray, 'Wipe':formula_wipe}
     
     api_url = 'https://capstone-2h5cv6z6ba-as.a.run.app'
     api_route = '/recommendations'
