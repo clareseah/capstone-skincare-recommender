@@ -38,13 +38,13 @@ st.markdown("""<nav class="navbar navbar-expand-lg navbar-light fixed-top" style
             </nav>""", unsafe_allow_html=True)
 
 st.write("""<h2>Welcome to Cos Skin! ✨</h2>
-<h5><i>Your one-stop shop for skincare recommendations!</i></h5>
-<h5>Obtain a personalized 4-step skincare routine by filling up the questionaire below 👇🏻 </h5>""", unsafe_allow_html=True)
+<h5><i>One-stop shop for skincare product recommendations JUST FOR YOU!</i></h5>
+<h5>Obtain a personalized 4-step skincare routine by filling up the questionnaire below 👇🏻 </h5>""", unsafe_allow_html=True)
 
 skin_age = st.selectbox('Select your age range:', ('Choose an option','20s', '30s', '40s', '50+', 'Under 20'))
 skin_type = st.selectbox('Select your skin type:', ('Choose an option', 'Combination', 'Dry', 'Normal', 'Oily', 'Sensitive'))
-skin_concerns = st.multiselect('What are your skin concerns? (You may select up to 5):', ['Ageing', 'Blackheads', 'Blemishes', 'Dark Circles', 'Dryness', 'Dullness', 'Fine Lines & Wrinkles', 'Firmness & Elasticity', 'Oiliness', 'Pigmentation & Dark Spots', 'Puffiness', 'Uneven Skin Texture', 'Uneven Skin Tone', 'Visible Pores'])
-formulation = st.multiselect('Formulation preferences (You may select up to 5):', ['Balm', 'Bar', 'Clay/Mud', 'Cream', 'Foam', 'Gel', 'Loose Powder', 'Liquid', 'Lotion', 'Oil', 'Powder', 'Sheet', 'Spray', 'Wipe'])
+skin_concerns = st.multiselect('What are your skin concerns?', ['Ageing', 'Blackheads', 'Blemishes', 'Dark Circles', 'Dryness', 'Dullness', 'Fine Lines & Wrinkles', 'Firmness & Elasticity', 'Oiliness', 'Pigmentation & Dark Spots', 'Puffiness', 'Uneven Skin Texture', 'Uneven Skin Tone', 'Visible Pores'])
+formulation = st.multiselect('Do you have any formulation preferences?', ['Balm', 'Bar', 'Clay/Mud', 'Cream', 'Foam', 'Gel', 'Loose Powder', 'Liquid', 'Lotion', 'Oil', 'Powder', 'Sheet', 'Spray', 'Wipe'])
 
 if skin_age == 'Under 20':
     age_under20 = 1
@@ -226,13 +226,7 @@ else:
 #user_input = {'Skin type': skin_type, 'Skin concerns': skin_concerns, 'Formulation': formulation, 'Skin age': skin_age}
 if st.button('Show Recommendation'):
     
-    user_input = {'Under20':age_under20, '20s':age_20s, '30s':age_30s, '40s':age_40s, '50+':age_50s, 
-                  'Combination':type_combi, 'Dry':type_dry, 'Normal':type_normal, 'Oily':type_oily, 'Sensitive':type_sensitive,
-                  'Ageing':concerns_ageing, 'Blackheads':concerns_blackheads, 'Blemishes':concerns_blemishes, 'DarkCircles':concerns_darkcircles, 'Dryness':concerns_dryness, 
-                  'Dullness':concerns_dullness, 'FineLines&Wrinkles':concerns_finelines_wrinkles, 'Firmness&Elasticity':concerns_firmness_elasticity, 'Oiliness':concerns_oiliness, 'Pigmentation&DarkSpots':concerns_pigmentation_darkspots, 
-                  'Puffiness':concerns_puffiness, 'UnevenSkinTexture':concerns_uneven_skin_texture, 'UnevenSkinTone':concerns_uneven_skin_tone, 'VisiblePores':concerns_visible_pores, 
-                  'Balm':formula_balm, 'Bar':formula_bar, 'ClayMud':formula_clay_mud, 'Cream':formula_cream, 'Foam':formula_foam, 
-                  'Gel':formula_gel, 'Liquid':formula_liquid, 'LoosePowder':formulation_loose_powder, 'Lotion':formula_lotion, 'Oil':formula_oil, 'Powder':formula_powder, 'Sheet':formula_sheet, 'Spray':formula_spray, 'Wipe':formula_wipe}
+    user_input = {'Under20':age_under20, '20s':age_20s, '30s':age_30s, '40s':age_40s, '50+':age_50s, 'Combination':type_combi, 'Dry':type_dry, 'Normal':type_normal, 'Oily':type_oily, 'Sensitive':type_sensitive, 'Ageing':concerns_ageing, 'Blackheads':concerns_blackheads, 'Blemishes':concerns_blemishes, 'DarkCircles':concerns_darkcircles, 'Dryness':concerns_dryness,  'Dullness':concerns_dullness, 'FineLines&Wrinkles':concerns_finelines_wrinkles, 'Firmness&Elasticity':concerns_firmness_elasticity, 'Oiliness':concerns_oiliness, 'Pigmentation&DarkSpots':concerns_pigmentation_darkspots, 'Puffiness':concerns_puffiness, 'UnevenSkinTexture':concerns_uneven_skin_texture, 'UnevenSkinTone':concerns_uneven_skin_tone, 'VisiblePores':concerns_visible_pores,  'Balm':formula_balm, 'Bar':formula_bar, 'ClayMud':formula_clay_mud, 'Cream':formula_cream, 'Foam':formula_foam,  'Gel':formula_gel, 'Liquid':formula_liquid, 'LoosePowder':formulation_loose_powder, 'Lotion':formula_lotion, 'Oil':formula_oil, 'Powder':formula_powder, 'Sheet':formula_sheet, 'Spray':formula_spray, 'Wipe':formula_wipe}
     
     api_url = 'https://capstone-2h5cv6z6ba-as.a.run.app'
     api_route = '/recommendations'
