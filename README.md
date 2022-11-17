@@ -1,4 +1,4 @@
-<img src="./images/cs_logo_pink.png" style="float: left; margin: 36px 20px 0 0; height: 60px">
+<img src="./images/cs_logo_pink.PNG" style="float: left; margin: 36px 20px 0 0; height: 60px">
 
 # Capstone Project - Cos Skin <br><i style = "font-size:16px">Your skin but better</i>
 
