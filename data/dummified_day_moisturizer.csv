@@ -1,0 +1,356 @@
+,rating,unique_id,Combination,Dry,Normal,Oily,Sensitive,Ageing,Blackheads,Blemishes,DarkCircles,Dryness,Dullness,FineLines&Wrinkles,Firmness&Elasticity,Oiliness,Pigmentation&DarkSpots,Puffiness,UnevenSkinTexture,UnevenSkinTone,VisiblePores,Balm,Cream,Gel,Liquid,Lotion,Oil,Spray,20s,30s,40s,50+,Under20
+0,4.2,THE ORDINARY-Natural Moisturizing Factors + HA,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+1,4.5,OLE HENRIKSEN-Strength Trainer Peptide Boost Moisturizer,1,1,1,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+2,4.6,FRESH-Rose Deep Hydration Face Cream Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+3,4.4,OLE HENRIKSEN-Cold Plunge™ Pore Remedy Moisturizer,1,1,1,1,0,0,0,0,0,1,0,1,0,1,1,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+4,4.5,BOBBI BROWN-Vitamin Enriched Face Base - Moisturizer and Primer,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+5,5.0,OLE HENRIKSEN-Hunt For Hydration Mini Moisturizer & Eye Crème Duo (Christmas Limited Edition),1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+6,4.5,FIRST AID BEAUTY-Ultra Repair Cream,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+7,4.3,TATCHA-Dewy Cleanse And Hydrate Duo (Christmas Limited Edition),1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1
+8,4.0,GLOW RECIPE-Watermelon Glow Pink Juice Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,1,1,1,1,1
+9,4.5,GLOW RECIPE-Plum Plump Hyaluronic Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+10,4.3,TATCHA-Clarifying Cleanse And Hydrate Duo (Christmas Limited Edition),1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,0,1,1,1,1,1
+11,4.8,FRESH-Best Of Beauty Bundle (Christmas Limited Edition),1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,1,1,1
+12,5.0,ESTÉE LAUDER-Revitalizing Supreme+ Youth Power Soft Creme Moisturizer,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+13,4.5,CLINIQUE-Dramatically Different Moisturizing Gel,1,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+14,4.3,FRESH-Best Selling Duo (Christmas Limited Edition),1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+15,4.3,CLINIQUE-Moisture Surge 100H Auto-Replenishing Hydrator Moisturiser,1,1,1,1,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+16,4.2,SK-II-Skinpower Airy Milky Lotion,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+17,4.2,TATCHA-The Dewy Skin Cream,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+18,4.1,SK-II-Skinpower Cream,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+19,4.3,FENTY SKIN-Instant Reset Overnight Recovery Gel-Cream,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,1,1,1,0,1,1,0,0,0,0,1,1,1,1,1
+20,4.2,"THE INKEY LIST-Vitamin B, C And E Moisturizer",1,1,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+21,4.4,FENTY SKIN-Hydra Vizor Invisible Broad Spectrum SPF 30 Sunscreen Moisturizer,1,1,1,1,0,0,0,0,0,1,1,1,0,0,1,0,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1
+22,4.3,LANCÔME-UV Expert Youth-Shield™ Aqua Gel SPF50 PA++++,1,1,1,1,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,0
+23,4.7,SUPERGOOP!-Every Single Face SPR-Shield watery lotion SPF 50,1,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1
+24,5.0,ORIGINS-Mega-Mushroom Magic Ultimate Skin Relief Collection (Christmas Limited Edition),1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,1,1,1
+25,4.6,LANCÔME-Hydra Zen Anti-Stress Moisturising Cream-Gel,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0
+26,4.1,THE INKEY LIST-Bakuchiol Moisturizer,1,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+27,4.4,FRESH-Lotus Youth Preserve Moisturizer With Multi-Action Super Lotus,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+28,4.2,EGYPTIAN MAGIC-Egyptian Magic Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+29,4.4,OLE HENRIKSEN-C-Rush Brightening Gel Crème,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+30,4.3,DRUNK ELEPHANT-All Protinis Great and Small (Limited Edition),1,1,1,1,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+31,4.6,DR.JART+-Cicapair Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+32,4.0,THE INKEY LIST-Peptide Moisturizer,1,1,1,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+33,4.1,BIOSSANCE-Squalane + Probiotic Gel Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+34,4.3,CAUDALIE-Vinosource-Hydra Grape Water Gel Moisturizer,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+35,4.6,DRUNK ELEPHANT-Protini™ Polypeptide Cream Mini,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+36,5.0,GLOW RECIPE-Plum Plump Hyaluronic Cream Refill Pod,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+37,4.7,PHILOSOPHY-Hope In A Jar Smooth-Glow Multi-Tasking Moisturizer,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+38,4.6,FENTY SKIN-Hydra Vizor Invisible Broad Spectrum SPF 30 Sunscreen Moisturizer Refill,1,1,1,1,0,0,0,0,0,1,1,1,0,0,1,0,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1
+39,4.7,CAUDALIE-Resveratrol-Lift Firming Cashmere Cream,1,1,1,1,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+40,3.2,THE INKEY LIST-Vitamin C Serum,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0
+41,4.4,ORIGINS-Original Skin™ Matte Moisturizer with Willowherb,1,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+42,4.6,INNISFREE-Jeju Cherry Blossom Jelly Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+43,4.5,BIOSSANCE-Squalane + Omega Repair Cream,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+44,4.8,DR. DENNIS GROSS-Advanced Retinol + Ferulic Intense Wrinkle Cream,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+45,4.5,FRESH-Rose Deep Hydration Essentials (Christmas Limited Edition),1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1
+46,4.3,SHISEIDO-Energizing Moisturizer Extra Light Fluid,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+47,4.3,ORIGINS-Ginzing™ Energizing Gel Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1
+48,4.1,DRUNK ELEPHANT-A-Passioni™ Retinol Skincare Cream,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+49,4.5,IT COSMETICS-Confidence in a Cream™ Transforming Moisturizing Super Cream,1,1,1,1,1,1,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+50,4.2,CHARLOTTE TILBURY-Refillable Magic Cream SPF,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+51,4.5,FIRST AID BEAUTY-Ultra Repair Firming Collagen Cream,1,1,1,1,1,1,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+52,4.5,CHARLOTTE TILBURY-Charlotte's Magic Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+53,3.7,SUPERGOOP!-Superscreen Daily Moisturizer SPF 40 PA+++,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+54,4.5,KORA ORGANICS BY MIRANDA KERR-Turmeric Glow Moisturizer,1,1,1,1,1,1,0,0,0,0,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+55,4.6,SEPHORA COLLECTION-Nourishing Moisturizer Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+56,4.4,SUNDAY RILEY-C.E.O. Vitamin C Rich Hydration Cream,1,1,1,1,0,1,0,0,0,1,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+57,4.1,GLAMGLOW-Glowstarter Mega Illuminating Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+58,3.5,SHISEIDO-White Lucent Brightening Gel Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+59,4.5,DR.JART+-Ceramidin Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+60,4.2,DRUNK ELEPHANT-Lala Retro™ Whipped Cream,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+61,4.3,LAB SERIES-Oil Control Moisturizer,1,1,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,1,1,1,1,1
+62,4.8,DR. DENNIS GROSS-VitaminC Lactic Dewy Deep Cream,1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+63,4.6,SEPHORA COLLECTION-Matte Moisturizer,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+64,4.6,SEPHORA COLLECTION-All Day Hydrator,1,1,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+65,5.0,SUNDAY RILEY-Morning Buzz Trio (Christmas Limited Edition),1,1,1,1,1,1,0,0,0,1,1,0,1,0,1,0,1,1,0,0,1,0,1,0,1,0,1,1,1,1,1
+66,4.6,IT COSMETICS-Confidence In A Gel Lotion,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,1,1,1,1
+67,5.0,SHISEIDO-Benefiance Wrinkle Smoothing Day Emulsion,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+68,4.2,TARTE-Knockout Brightening Gel Moisturizer,1,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1
+69,4.3,DRUNK ELEPHANT-Welcome to Lala Land (Limited Edition),1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+70,3.9,CLINIQUE-Anti-Blemish All Over Clearing Treatment,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+71,4.3,SULWHASOO-Essential Comfort Moisturizing Gel Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+72,3.7,INNISFREE-Jeju Cherry Blossom Tone Up Cream,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+73,4.3,ORIGINS-Clear Improvement™ Oil-Free Moisturizer with Bamboo Charcoal,1,1,1,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+74,4.7,LANEIGE-Water Bank Blue Hyaluronic Cream - For Normal To Dry Skin,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+75,4.5,EVEREDEN-Nourishing Stretch Mark Cream,1,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+76,4.1,DR.JART+-Vital Hydra Solution Biome Water Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+77,4.7,BOBBI BROWN-Vitamin Enriched Eye Base - Eye Cream And Primer,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+78,4.2,TATCHA-The Silk Peony Melting Eye Cream,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,1,1
+79,4.3,CAUDALIE-Vinosource-Hydra S.O.S Intense Moisturizing Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+80,4.5,FARMACY-Honey Halo Ultra-Hydrating Ceramide Moisturizer,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+81,3.8,ALPHA-H-Balancing Moisturiser & Gentle Exfoliant with 10% Glycolic Acid,1,0,1,1,0,1,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+82,5.0,BY TERRY-Hyaluronic Global Face Cream,1,1,1,1,0,0,0,1,0,1,1,1,0,0,1,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+83,3.0,CLE DE PEAU-Protective Fortifying Cream,1,1,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+84,5.0,LAB SERIES-Instant Fix Color Correcting Moisturizer,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1
+85,4.1,PHILOSOPHY-Purity Made Simple Mattifying Gel Moisturizer,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+86,4.3,GIVENCHY-Skin Ressource Protective Moisturising Rich Cream Refill,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+87,4.6,GLAMGLOW-Superwatergel Triple-Acid Oil-Free Moisturizer,1,1,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,1,1,1
+88,3.8,THE INKEY LIST-Symbright Brightening Moisturiser,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+89,4.4,DIOR-Capture Totale DreamSkin Care & Perfect Emulsion,1,1,1,1,1,0,0,0,0,1,1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,1,1,1,0
+90,4.3,LANEIGE-Water Bank Blue Hyaluronic Emulsion - For Normal To Dry Skin,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+91,4.3,INDIE LEE-Brightening Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+92,4.3,CLINIQUE-Dramatically Different Moisturizing Lotion+ With Pink Ribbon Key Chain,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+93,4.6,WISHFUL-Honey Whip Peptide Moisturizer,1,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+94,4.2,ALPHA-H-Essential Hydration Cream with Rose Geranium and Vitamin E,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+95,2.5,BURT'S BEES-Sensitive Day Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+96,4.3,KOPARI-Coconut Face Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,0
+97,4.3,IT COSMETICS-Beautiful Together Day-To-Night Skincare Duo (Christmas Limited Edition),1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+98,4.3,LA MER-Crème De La Mer Moisturizer (Limited Edition),1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+99,4.1,FRESH-Black Tea Firming Corset Cream,1,1,1,1,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0
+100,4.7,CAUDALIE-Vinosource-Hydra Moisturizing Sorbet,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,1,1,1
+101,3.5,DR. DENNIS GROSS-B3Adaptive Superfoods Barrier Repair Face Cream,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+102,5.0,KENZOKI-Nourishing Flow Sensual Body Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+103,3.5,CAUDALIE-Skincare Bestie Box,1,1,1,1,0,0,1,1,0,1,1,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,1,1,1,1,1
+104,4.2,TARTE-Sea Drink Of H₂O Hydrating Boost Moisturizer,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+105,4.6,CAUDALIE-Resveratrol-Lift Lightweight Firming Cashmere Cream,1,1,1,1,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+106,4.3,TALIKA-Skintelligence Hydra - Intense Hydrating Light Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+107,3.7,SHISEIDO-Future Solution LX Total Regenerating Cream,1,1,1,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+108,3.0,SHISEIDO-Future Solution LX Universal Defense,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+109,4.3,SULWHASOO-Essential Comfort Balancing Emulsion Moisturiser,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,1,1,1,1
+110,4.3,LAB SERIES-Anti-Age Max LS Cream,1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+111,5.0,PHILOSOPHY-Hope In A Jar Hyaluronic Glow Moisturiser Water Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+112,4.6,"LANCÔME-Rénergie Multi-Lift Memory Shape™ Gel-in-Lotion, 200ml",1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,1,1,1
+113,4.3,ORIGINS-Dr. Andrew Weil for Origins™ Relief & Resilience Soothing Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+114,4.1,DERMALOGICA CLEAR START-Skin Soothing Hydrating Lotion,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1
+115,3.9,THE INKEY LIST-Selfless by Hyram Niacinamide and Maracuja Daily Barrier Support Moisturizer,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,1,1,0,0,0,0,1,1,1,1,1
+116,4.6,LANEIGE-Water Bank Blue Hyaluronic Cream - For Combination To Oily Skin,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+117,5.0,LANCÔME-Rénergie Multi-Lift Ultra Cream,1,1,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+118,4.8,EVEREDEN-Soothing Baby Massage Oil,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,1,1,1
+119,4.6,DR.JART+-Cicapair Calming Gel Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+120,3.8,LA MER-The Moisturising Cool Gel Cream Moisturizer,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+121,4.3,LA MER-The Deep Soothing Collection (Christmas Limited Edition),1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+122,4.3,ELEMIS-Superfood Glow Priming Moisturiser,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+123,4.6,DERMALOGICA-Barrier Repair Moisturizer,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+124,4.6,DR.JART+-Ctrl-A Teatreement™ Moisturizer,1,0,0,1,0,0,0,1,0,1,1,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+125,4.4,CLINIQUE-Dramatically Different Moisturizing Lotion+,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+126,4.3,PETER THOMAS ROTH-Water Drench Hyaluronic Cloud Cream Hydrating Moisturizer,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0
+127,4.3,LANEIGE-Radian-C Cream,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,0
+128,4.4,ESTÉE LAUDER-Micro Essence Skin Activating Treatment Lotion Fresh with Sakura Ferment,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,1,1,1,1
+129,4.3,DR.JART+-V7 Toning Light Quatro Lunar New Year (Limited Edition),1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+130,5.0,SHISEIDO-Vital Perfection Uplifting & Firming Cream Enriched,1,1,1,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+131,4.3,PHILOSOPHY-Purity Made Simple Ultra-Light Moisturizer,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,0
+132,4.4,SHISEIDO-Vital Perfection Uplifting & Firming Cream,1,1,1,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+133,5.0,KENZOKI-Youth Flow Skin Renew Velvet Cream,1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+134,4.2,FRESH-Rose Hydrating Water Gel Cream Moisturizer,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+135,4.3,FRESH-Vitamin Nectar Moisture Glow Face Cream,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0
+136,4.1,THIS WORKS-In Transit Skin Defence SPF30,1,1,1,1,1,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+137,4.3,DRGL-Moisturiser Collagen Boost,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+138,4.0,DRGL-Moisturiser All Skin Types,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0
+139,4.3,DOERS OF LONDON-Hydrating Face Cream,1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+140,4.3,SHISEIDO-Future Solution LX Legendary Enmei Ultimate Renewing Cream,1,1,1,1,1,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+141,4.3,SHISEIDO-Future Solution LX Total Protective Cream,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+142,5.0,CLINIQUE-Clinique For Men™ Maximum Hydrator Eye 96-Hour Hydro-Filler Concentrate,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1
+143,5.0,THREE-Balancing Emulsion R,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+144,4.3,CLINIQUE-Dramatically Different Hydrating Jelly,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+145,4.3,GIVENCHY-Skin Ressource Protective Moisturising Velvet Cream Refill,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+146,4.2,PETER THOMAS ROTH-Pro Strength Niacinamide Discoloration Treatment,1,1,1,1,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+147,4.3,SHISEIDO-Waso Quick Matte Moisturizer Oil-free,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+148,4.0,CLINIQUE-Clinique For Men Moisturizing Lotion,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+149,4.3,DIOR-Capture Youth Age-Delay Advanced Crème Moisturiser,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,1,0
+150,4.3,SHISEIDO-Men Total Revitalizer Light Fluid Lotion,1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1
+151,4.3,ELEMIS-Superfood Day Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+152,4.3,DIOR-Prestige La Crème Texture Essentielle,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+153,4.3,LAB SERIES-Daily Rescue Energizing Face Lotion,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+154,4.3,SHISEIDO-Essential Energy Hydrating Day Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+155,4.3,DR.JART+-V7 Toning Light,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+156,4.3,DR.JART+-V7 Toning Light,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+157,5.0,SHISEIDO-Treatment Softener Lotion,1,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,0
+158,5.0,SULWHASOO-Concentrated Ginseng Renewing Cream EX Classic,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+159,4.0,SAND & SKY-Tasmanian Spring Water Hydration Boost Cream,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+160,4.3,JUICE BEAUTY-Stem Cellular™ Anti-Wrinkle Moisturizer,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1
+161,4.3,ORIGINS-Love And Be: Youthful Plantscription™ Youth-Boosting Regimen Trio,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1
+162,4.3,INNISFREE-Bija Cica Balm,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+163,4.2,SK-II-SK-II Mid-Day Miracle Essence,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+164,4.1,PETER THOMAS ROTH-Potent-C Power Eye Cream,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+165,4.3,GLO SKIN BEAUTY-Hydra-Bright AHA Hydrator,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+166,4.8,EVEREDEN-Nourishing Baby Face Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+167,5.0,LAB SERIES-All-In-One Face Treatment,1,1,1,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+168,4.4,SATURDAY SKIN-Waterfall Glacier Water Cream,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1
+169,4.3,GIVENCHY-Ressource Soothing Moisturizing Treatment Lotion,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+170,3.9,MARIO BADESCU-Oil Free Moisturizer,1,1,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,1
+171,4.7,KORA ORGANICS BY MIRANDA KERR-Active Algae Lightweight Moisturizer,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,1,1,1
+172,4.3,ALLIES OF SKIN-Molecular Barrier Recovery Cream Balm,1,1,1,1,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,1,1,1,1,1
+173,4.3,TALIKA-Skintelligence Hydra - Intense Hydrating Rich Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+174,3.9,CAUDALIE-Vinopure Skin Perfecting Mattifying Moisturizer,1,1,1,1,1,0,1,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,1
+175,4.2,ALPHA-H-Protection Plus Daily Moisturiser SPF 50+ with Pomegranate Seed Oil,1,1,1,1,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+176,4.9,ALLIES OF SKIN-Peptides & Antioxidants Firming Daily Treatment,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,0
+177,4.4,STARSKIN-Orglamic™ Pink Cactus Pudding Moisturiser,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,1,1,1,1
+178,4.0,PIXI-Skintreats Clarity Lotion Oil-Free Moisturiser,1,1,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,1,1,1,1
+179,4.3,BOSCIA-Plant Stem Cell And Ceramide Barrier-Defense Moisturizer,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+180,5.0,PAI SKINCARE-Love & Haight Avocado & Jojoba Hydrating Moisturizer,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+181,4.3,PAI SKINCARE-The Anthemis Chamomile & Rosehip Soothing Moisturizer,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+182,4.1,PIXI-Rose Ceramide Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+183,4.0,CAUDALIE-Vinoperfect Instant Brightening Moisturizer,1,1,1,1,0,1,0,1,0,1,1,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,1,1,1,1,1
+184,4.3,ALLIES OF SKIN-CE15 Bakuchiol Firming Oil,1,1,1,1,0,1,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1
+185,4.1,PIXI-Phenomenal Gel,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+186,4.4,PIXI-Vitamin-C Lotion,1,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,0
+187,4.1,SUNDAY RILEY-Ice Ceramide Moisturizing Cream,0,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+188,3.9,MARIO BADESCU-Peptide Renewal Cream,1,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0
+189,4.1,PIXI-Rose Caviar Essence,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,0
+190,4.2,CLINIQUE-Smart Clinical Repair Wrinkle Correcting Cream,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+191,4.4,PETER THOMAS ROTH-Vital-E Microbiome Age Defense Cream,1,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+192,4.0,DIOR-Hydra Life Sorbet Crème,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+193,4.4,DERMALOGICA-Calm Water Gel,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+194,4.6,DERMALOGICA-Skin Smoothing Moisturizer Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+195,4.5,DERMALOGICA-Intensive Moisture Balance Moisturizer,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+196,4.6,DERMALOGICA-Active Moist 2.0 Moisturizer,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+197,4.3,MALIN + GOETZ-Advanced Renewal Cream,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+198,1.0,GUERLAIN-Abeille Royale Mattifying Day Cream,1,0,1,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1
+199,5.0,LAB SERIES-Daily Rescue Energizing Gel Cream,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+200,4.1,THIS WORKS-In Transit Camera Close-up,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0
+201,4.3,BUTTER LONDON-Extra Whip Hand & Foot Treatment,1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+202,4.3,GIVENCHY-Skin Ressource Soothing Moisturising Lotion,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+203,5.0,SHISEIDO-Vital Perfection Uplifting And Firming Day Emulsion,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+204,3.7,PETER THOMAS ROTH-Potent-C Bright & Plump Moisturizer,1,1,1,1,1,1,0,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+205,4.3,LIXIRSKIN-Universal Emulsion,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+206,4.3,GIVENCHY-Skin Perfecto Radiance Reviver Emulsion,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+207,4.0,INDIE LEE-Daily Skin Nutrition Moisturizer,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1
+208,5.0,SHISEIDO-Future Solution LX Total Protective Emulsion,1,1,1,1,0,1,0,0,0,1,1,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,1,1,1,1
+209,4.3,SULWHASOO-Concentrated Ginseng Renewing Emulsion EX,1,1,1,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+210,4.3,ELEMIS-Pro-Collagen Marine Cream,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+211,5.0,LANEIGE-Water Bank Blue Hyaluronic Emulsion - For Combination To Oily Skin,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+212,4.3,DIOR-Diorsnow Essence Of Light Lock & Reflect Creme,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+213,4.3,NON GENDER SPECIFIC-Everything Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+214,4.3,SULWHASOO-Concentrated Ginseng Renewing Cream EX,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+215,3.6,FRANK BODY-Everyday Face Moisturiser,0,0,1,1,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+216,4.3,CLE DE PEAU-Volumizing Cream Supreme,1,1,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+217,3.0,GIVENCHY-Ressource Rich Moisturizing Face Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+218,4.5,MALIN + GOETZ-Advanced Renewal Moisturizer,1,1,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+219,4.3,SHISEIDO-Ultimune Future Power Shot (Limited Edition),1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+220,3.6,THE INKEY LIST-Multi-Biotic Moisturiser,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+221,3.5,GIVENCHY-Skin Perfecto Compact Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+222,5.0,CHARLOTTE TILBURY-Magic Cream Refill,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+223,4.3,CHARLOTTE TILBURY-Refillable Magic Cream,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+224,3.5,PIXI-Hydrating Milky Lotion,1,1,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+225,3.5,EVE LOM-Moisture Cream,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+226,4.1,PIXI-On-the-Glow Multi-Use Moisture Stick,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+227,3.8,DR. DENNIS GROSS-Hyaluronic Marine Moisture Cushion,1,1,1,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+228,4.5,KORA ORGANICS BY MIRANDA KERR-Turmeric Glow Moisturizer Refill Pod,1,1,1,1,1,1,0,0,0,0,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+229,4.0,KENZOKI-Nourishing Flow Hand & Nail Balm For Caress,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+230,4.2,WISHFUL-Honey Balm Jelly Moisturizer,1,1,1,1,1,0,0,0,0,1,1,0,0,1,1,0,1,1,1,1,0,1,0,0,0,0,1,1,1,1,0
+231,3.7,INNISFREE-Jeju Orchid Enriched Cream,1,1,1,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+232,4.3,TALIKA-Eye Quintessence Day Cream + Night Serum Duo,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,1
+233,4.3,LA MER-The Revitalized Transformation Collection (Christmas Limited Edition),1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,1
+234,4.3,LA MER-The Smoothing Moisture Duo Collection (Christmas Limited Edition),1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,1,1,1,1
+235,1.0,THREE-Balancing Cream R,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+236,4.3,CLE DE PEAU-Protective Fortifying Cream Refill,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+237,4.3,SHISEIDO-Men Total Revitalizer Cream,1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+238,4.3,CLE DE PEAU-Protective Fortifying Cream Broad Spectrum SPF 22,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+239,5.0,WEI-Five Sacred Grains Rapid Glow Liquid Milk Moisturiser,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,1,1,1
+240,5.0,LAB SERIES-Daily Rescue Hydrating Emulsion,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+241,4.3,SHISEIDO-Essential Energy Hydrating Day Cream Refill,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+242,4.4,MALIN + GOETZ-Vitamin E Face Moisturizer,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+243,4.4,BOBBI BROWN-Hydrating Water Fresh Cream Moisturiser,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+244,3.8,FOR BELOVED ONE-Advanced Hyaluronic Acid GHK-Cu Moisturizing Serum,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0
+245,4.3,SHISEIDO-Benefiance Wrinkle Smoothing Cream,1,1,1,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+246,5.0,CLINIQUE-Moisture Surge™ 100H Auto-Replenishing Hydrator (Limited Edition),1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+247,4.3,MAC COSMETICS-Lightful C³ Radiant Hydration Tone-Up Cream Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+248,4.2,CLE DE PEAU-Hydro-Softening Lotion,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+249,5.0,SHISEIDO-Eudermine 150th Anniversary (Limited Edition),1,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+250,4.3,LANCÔME-Clarifique Watery Emulsion,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,1,1,1,1,1
+251,3.8,INDIE LEE-Active Oil-Free Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1
+252,4.3,LANEIGE-Perfect Renew Youth Emulsion,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+253,4.2,GLAMGLOW-Waterburst™ Hydrated Glow Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+254,5.0,CLINIQUE-Clinique For Men™ Maximum Hydrator 72-Hour Auto-Replenishing Hydrator,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+255,5.0,CLE DE PEAU-Protective Fortifying Emulsion,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+256,4.2,FIRST AID BEAUTY-Ultra Repair Face Moisturizer,1,1,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+257,4.5,DIOR-Capture Totale C.E.L.L. ENERGY Firming & Wrinkle-Correcting Crème,1,1,1,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+258,4.6,CLINIQUE-Moisture Surge Intense 72Hr Lipid-Replenishing Hydrator,1,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1
+259,5.0,DIOR-Capture Totale Super Potent Rich Creme,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+260,4.1,LA MER-Crème De La Mer Moisturizer,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+261,4.3,SHISEIDO-Ultimune Power Infusing Concentrate (Limited Edition),1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+262,4.1,GUERLAIN-Abeille Royale Day Cream,1,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+263,2.0,PHILOSOPHY-Hope In A Jar Water Cream Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+264,4.3,SULWHASOO-Essential Comfort Firming Cream,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+265,3.0,MAC COSMETICS-Lightful C³ Tone-Up Balm SPF30/PA++,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,1,1,1
+266,4.3,MAC COSMETICS-Lightful C³ Radiant Hydration Skin Renewal Emulsion Lotion,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,1
+267,4.3,EVE LOM-Moisture Lotion,1,1,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,1,1,1,1
+268,3.0,MARIO BADESCU-Hyaluronic Dew Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+269,4.1,SKIN INC-Pure Serum Infused Moisturizer,1,1,1,1,0,1,0,0,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+270,4.3,TALIKA-Skintelligence Anti-Age - Regenerating Day Cream,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+271,4.3,ALLIES OF SKIN-Multi Nutrient & Dioic Renewing Cream,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+272,4.0,BOSCIA-Chia Seed Moisture Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+273,3.8,PIXI-Rose Flash Balm,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0
+274,4.6,SUNDAY RILEY-C.E.O. Afterglow Brightening Vitamin C Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+275,4.0,KENZOKI-Hydration Flow Fresh Melt-In Lotion,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+276,4.5,HERBIVORE BOTANICALS-Aquarius Pore Purifying Clarity Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+277,4.0,HERBIVORE BOTANICALS-Pink Cloud Soft Moisture Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+278,4.6,DR. DENNIS GROSS-Alpha Beta Daily Moisturizer,1,1,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+279,4.3,KORA ORGANICS BY MIRANDA KERR-Active Algae Lightweight Moisturizer - Refill Pod,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,1,1,1
+280,3.0,CAUDALIE-Vinergetic C+ 3-In-1 Vitamin C Energy Moisturizer,1,1,1,1,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+281,5.0,SATURDAY SKIN-Carrot + Niacinamide Moisturizing Cream,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+282,4.3,SHISEIDO-Vital-perfection White Revitalizing Emulsion Enriched,1,1,1,1,0,1,0,0,0,1,1,1,1,0,1,0,1,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+283,4.3,INNISFREE-Green Tea Seed Cream,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+284,4.3,SHISEIDO-Vital-perfection White Revitalizing Emulsion,1,1,1,1,0,1,0,0,0,1,1,1,1,0,1,0,1,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+285,4.4,NUDESTIX-Citrus-C Mask & Daily Moisturizer,1,1,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+286,4.3,LA MER-The Restored And Refresh Collection (Christmas Limited Edition),1,1,1,1,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,1
+287,4.3,DIOR-Hydra Life Deep Hydration Sorbet Water Essence,1,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,1,1,1,1,0
+288,4.3,ORIGINS-Youth Fantastic Plantscription™ Line-Smoothing & Rejuvenating Trio Christmas (Limited Edition),1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1
+289,4.3,KOPARI-Moisture Whipped Ceramide Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+290,5.0,CLINIQUE-Repairwear Laser Focus Line Smoothing Cream Broad Spectrum SPF 15,1,1,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+291,4.1,ESTÉE LAUDER-Nutritious Super-Pomegranate Radiant Energy Moisture Crème,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+292,4.2,CLINIQUE-Even Better Brighter Moisture Cream,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+293,4.8,BY TERRY-Baume De Rose Face Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+294,4.3,EVE LOM-TLC Moisturizing Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+295,4.3,TATCHA-The Silk Cream,1,1,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+296,4.3,LA MER-Blue Heart Crème De La Mer (Limited Edition),1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+297,5.0,WEI-Royal Ming Empress Cream Moisturiser,1,1,1,1,1,0,0,0,0,1,1,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+298,4.4,AUGUSTINUS BADER-The Cream,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+299,4.3,AUGUSTINUS BADER-The Rich Cream,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+300,4.7,LANCÔME-Clarifique Brightening Plumping Milky Cream,1,1,1,1,1,1,0,0,0,1,1,0,0,1,1,0,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1
+301,4.8,LANEIGE-Time Freeze Intensive Cream EX,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+302,4.0,ORIGINS-Ginzing Oil-Free Energy-Boosting Gel Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+303,4.0,PAI SKINCARE-The Pioneer Re-Balance Geranium & Thistle Moisturizer,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+304,4.4,KORA ORGANICS BY MIRANDA KERR-Purifying Moisturizer,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+305,4.3,STARSKIN-ORGLAMIC™ Celery Juice Serum-in-Oil Emulsion,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0
+306,4.4,SEPHORA COLLECTION-Nourishing Moisturizer,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+307,4.6,SEPHORA COLLECTION-Men Smoothing Hydrating Lotion,1,1,1,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+308,4.0,DR. DENNIS GROSS-Alpha Beta Pore Perfecting Moisturizer,1,1,1,1,1,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+309,4.3,SKYN ICELAND-The Antidote Cooling Daily Lotion,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+310,4.6,GALLINÉE-Hydrating Face Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+311,4.2,FIRST AID BEAUTY-Skin Rescue Daily Face Cream,1,1,1,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+312,5.0,WEI-Royal Ming Imperial Lotion Moisturiser,1,1,1,1,1,0,0,0,0,1,1,1,0,0,1,0,1,1,0,0,0,0,1,1,0,0,1,1,1,1,1
+313,5.0,BOBBI BROWN-Vitamin Enriched Face Base Moisturizer and Primer Duo,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+314,4.3,SKYN ICELAND-The Antidote Cooling Daily Lotion,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+315,4.6,GALLINÉE-Hydrating Face Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+316,5.0,WEI-Royal Ming Imperial Lotion Moisturiser,1,1,1,1,1,0,0,0,0,1,1,1,0,0,1,0,1,1,0,0,0,0,1,1,0,0,1,1,1,1,1
+317,5.0,BOBBI BROWN-Vitamin Enriched Face Base Moisturizer and Primer Duo,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+318,4.9,ORIGINS-GinZing™ Radiance Serum & Oil-Free Moisturizer Duo (Limited Edition),1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1
+319,4.0,SULWHASOO-Essential Balancing Emulsion EX Moisturiser,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,1
+320,4.4,ORIGINS-Make A Difference™ Plus+ Rejuvenating Treatment,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+321,4.3,SHISEIDO-White Lucent Brightening Day Emulsion,1,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+322,4.0,FIRST AID BEAUTY-Coconut Water Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+323,4.0,THE INKEY LIST-Omega Water Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+324,4.4,TATCHA-The Water Cream,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1
+325,4.8,LA MER-The Hydrating Infused Emulsion - Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+326,4.2,SEPHORA COLLECTION-Original Brightening Eye Cream,1,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,1,1,1,1,0
+327,3.5,CHARLOTTE TILBURY-Charlotte's Magic Cream Light Moisturiser,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+328,3.9,BYBI BEAUTY-Blueberry Booster,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+329,4.2,ERNO LASZLO-Firmarine Moisturizer SPF 30,1,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0
+330,4.2,SKYN ICELAND-Pure Cloud Cream,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+331,4.3,AMUSE-Phytoncica™ B5 Triple Hyaluronic Acid Essence,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+332,5.0,MAC COSMETICS-Mineralize Time Check Lotion,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,1,1,1,0
+333,4.3,PHILOSOPHY-Renewed Hope In A Jar Refreshing & Refining Moisturizer,1,1,1,0,0,1,0,0,0,1,1,1,1,0,1,0,1,1,1,0,1,0,0,0,0,0,0,1,1,1,0
+334,4.3,AUGUSTINUS BADER-The Light Cream,1,1,1,1,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1
+335,3.3,HEURE-Ageless Day Treatment Moisturiser,1,1,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+336,4.2,CAUDALIE-Vinosource Moisturizing Matifying Fluid 40ml,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+337,4.3,FOR BELOVED ONE-Melasleep Brightening Lumi's Key Lotion,1,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1
+338,4.6,PETER THOMAS ROTH-Peptide 21 Lift & Firm Moisturizer,1,1,1,1,0,1,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,0
+339,4.3,LANCÔME-Hydra Zen Anti-Stress Moisturising Cream,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+340,3.8,BYBI BEAUTY-C-Caf Cream,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+341,4.2,GLOW RECIPE-Banana Souffle Moisture Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+342,3.4,SEPHORA COLLECTION-Original Firming Day Cream,1,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+343,4.7,ULTRA VIOLETTE-Queen Screen Luminising Sun Serum SPF 50+,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1
+344,4.3,CHARLOTTE TILBURY-Magic Cream® Moisturiser Lunar New Year (Limited Edition),1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+345,5.0,DR.JART+-Cicapair Tiger Grass Color Correcting Treatment,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1
+346,4.2,BOSCIA-Cactus Water Hydrating Cream,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+347,3.2,KOPARI-Coconut Water Moisture Cream,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1
+348,3.9,PIXI-Glowtion Day Dew Brightening Lotion,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+349,3.6,PIXI-H20 Skindrink,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1
+350,4.4,EVE LOM-Brightening Cream,1,1,1,1,0,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0
+351,4.3,CAUDALIE-Premier Cru Cream,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0
+352,4.2,SEPHORA COLLECTION-Original All Day Hydrator Moisturizer,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0
+353,4.6,KORA ORGANICS BY MIRANDA KERR-Hydrating Moisturizer,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1
+354,4.0,KORA ORGANICS BY MIRANDA KERR-Noni Glow Face Balm,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1

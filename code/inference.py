@@ -10,28 +10,28 @@ api = Flask('ModelEndpoint')
 
 cleanser_pickle = pickle.load(open('models/cleanser_pdt_details.pk1', 'rb'))
 cleanser_pdt_details = pd.DataFrame(cleanser_pickle)
-dummified_cleanser_pickle = pickle.load(open('models/dummified_cleanser.pk1', 'rb'))
-dummified_cleanser = pd.DataFrame(dummified_cleanser_pickle)
+recommender_cleanser_pickle = pickle.load(open('models/recommender_cleanser.pk1', 'rb'))
+recommender_cleanser = pd.DataFrame(recommender_cleanser_pickle)
 
 toner_pickle = pickle.load(open('models/toner_pdt_details.pk1', 'rb'))
 toner_pdt_details = pd.DataFrame(toner_pickle)
-dummified_toner_pickle = pickle.load(open('models/dummified_toner.pk1', 'rb'))
-dummified_toner = pd.DataFrame(dummified_toner_pickle)
+recommender_toner_pickle = pickle.load(open('models/recommender_toner.pk1', 'rb'))
+recommender_toner = pd.DataFrame(recommender_toner_pickle)
 
 day_moisturizer_pickle = pickle.load(open('models/day_moisturizer_pdt_details.pk1', 'rb'))
 day_moisturizer_pdt_details = pd.DataFrame(day_moisturizer_pickle)
-dummified_day_moisturizer_pickle = pickle.load(open('models/dummified_day_moisturizer.pk1', 'rb'))
-dummified_day_moisturizer = pd.DataFrame(dummified_day_moisturizer_pickle)
+recommender_day_moisturizer_pickle = pickle.load(open('models/recommender_day_moisturizer.pk1', 'rb'))
+recommender_day_moisturizer = pd.DataFrame(recommender_day_moisturizer_pickle)
 
 night_cream_pickle = pickle.load(open('models/night_cream_pdt_details.pk1', 'rb'))
 night_cream_pdt_details = pd.DataFrame(night_cream_pickle)
-dummified_night_cream_pickle = pickle.load(open('models/dummified_night_cream.pk1', 'rb'))
-dummified_night_cream = pd.DataFrame(dummified_night_cream_pickle)
+recommender_night_cream_pickle = pickle.load(open('models/recommender_night_cream.pk1', 'rb'))
+recommender_night_cream = pd.DataFrame(recommender_night_cream_pickle)
 
 sunscreen_pickle = pickle.load(open('models/sunscreen_pdt_details.pk1', 'rb'))
 sunscreen_pdt_details = pd.DataFrame(sunscreen_pickle)
-dummified_sunscreen_pickle = pickle.load(open('models/dummified_sunscreen.pk1', 'rb'))
-dummified_sunscreen = pd.DataFrame(dummified_sunscreen_pickle)
+recommender_sunscreen_pickle = pickle.load(open('models/recommender_sunscreen.pk1', 'rb'))
+recommender_sunscreen = pd.DataFrame(recommender_sunscreen_pickle)
 
 @api.route('/') 
 def home(): 
@@ -43,7 +43,7 @@ def recommend():
     user_input = pd.read_json(user_input, lines = True)
     
     # Cleanser recommendation
-    cleanser_columns = dummified_cleanser.columns
+    cleanser_columns = recommender_cleanser.columns
     cleanser_profile = pd.Series(data = np.zeros(len(cleanser_columns)), index = cleanser_columns) # initialize 0s for all genres to create new user vector using: (https://numpy.org/doc/stable/reference/generated/numpy.zeros.html)
     cleanser_profile['Under20'] = user_input['Under20']
     cleanser_profile['20s'] = user_input['20s']
@@ -80,9 +80,10 @@ def recommend():
     cleanser_profile['Oil'] = user_input['Oil']
     cleanser_profile['Powder'] = user_input['Powder']
     cleanser_profile['Wipe'] = user_input['Wipe']
+    cleanser_profile['rating'] = 1.5
     
-    cleanser_recommendations = np.dot(dummified_cleanser.values, cleanser_profile.values)
-    cleanser_recommendations = pd.Series(cleanser_recommendations, index=dummified_cleanser.index)
+    cleanser_recommendations = np.dot(recommender_cleanser.values, cleanser_profile.values)
+    cleanser_recommendations = pd.Series(cleanser_recommendations, index=recommender_cleanser.index)
     recommended_cleanser = cleanser_recommendations.sort_values(ascending = False).index[0]
     
     cleanser_name = cleanser_pdt_details[cleanser_pdt_details['unique_id'] == recommended_cleanser]['pdt_name'].values[0]
@@ -92,7 +93,7 @@ def recommend():
     cleanser_image = cleanser_pdt_details[cleanser_pdt_details['unique_id'] == recommended_cleanser]['pdt_images'].values[0]
     
     # Toner recommendation
-    toner_columns = dummified_toner.columns
+    toner_columns = recommender_toner.columns
     toner_profile = pd.Series(data = np.zeros(len(toner_columns)), index = toner_columns) # initialize 0s for all genres to create new user vector using: (https://numpy.org/doc/stable/reference/generated/numpy.zeros.html)
     toner_profile['Under20'] = user_input['Under20']
     toner_profile['20s'] = user_input['20s']
@@ -125,9 +126,10 @@ def recommend():
     toner_profile['Sheet'] = user_input['Sheet']
     toner_profile['Spray'] = user_input['Spray']
     toner_profile['Wipe'] = user_input['Wipe']
+    toner_profile['rating'] = 1.5
     
-    toner_recommendations = np.dot(dummified_toner.values, toner_profile.values)
-    toner_recommendations = pd.Series(toner_recommendations, index=dummified_toner.index)
+    toner_recommendations = np.dot(recommender_toner.values, toner_profile.values)
+    toner_recommendations = pd.Series(toner_recommendations, index=recommender_toner.index)
     recommended_toner = toner_recommendations.sort_values(ascending = False).index[0]
     
     toner_name = toner_pdt_details[toner_pdt_details['unique_id'] == recommended_toner]['pdt_name'].values[0]
@@ -137,7 +139,7 @@ def recommend():
     toner_image = toner_pdt_details[toner_pdt_details['unique_id'] == recommended_toner]['pdt_images'].values[0]
     
     # Day moisturizer recommendation
-    day_moisturizer_columns = dummified_day_moisturizer.columns
+    day_moisturizer_columns = recommender_day_moisturizer.columns
     day_moisturizer_profile = pd.Series(data = np.zeros(len(day_moisturizer_columns)), index = day_moisturizer_columns) # initialize 0s for all genres to create new user vector using: (https://numpy.org/doc/stable/reference/generated/numpy.zeros.html)
     day_moisturizer_profile['Under20'] = user_input['Under20']
     day_moisturizer_profile['20s'] = user_input['20s']
@@ -170,9 +172,10 @@ def recommend():
     day_moisturizer_profile['Lotion'] = user_input['Lotion']
     day_moisturizer_profile['Oil'] = user_input['Oil']
     day_moisturizer_profile['Spray'] = user_input['Spray']
+    day_moisturizer_profile['rating'] = 1.5
     
-    day_moisturizer_recommendations = np.dot(dummified_day_moisturizer.values, day_moisturizer_profile.values)
-    day_moisturizer_recommendations = pd.Series(day_moisturizer_recommendations, index=dummified_day_moisturizer.index)
+    day_moisturizer_recommendations = np.dot(recommender_day_moisturizer.values, day_moisturizer_profile.values)
+    day_moisturizer_recommendations = pd.Series(day_moisturizer_recommendations, index=recommender_day_moisturizer.index)
     recommended_day_moisturizer = day_moisturizer_recommendations.sort_values(ascending = False).index[0]
     
     day_moisturizer_name = day_moisturizer_pdt_details[day_moisturizer_pdt_details['unique_id'] == recommended_day_moisturizer]['pdt_name'].values[0]
@@ -182,7 +185,7 @@ def recommend():
     day_moisturizer_image = day_moisturizer_pdt_details[day_moisturizer_pdt_details['unique_id'] == recommended_day_moisturizer]['pdt_images'].values[0]
     
     # Night cream recommendation
-    night_cream_columns = dummified_night_cream.columns
+    night_cream_columns = recommender_night_cream.columns
     night_cream_profile = pd.Series(data = np.zeros(len(night_cream_columns)), index = night_cream_columns) # initialize 0s for all genres to create new user vector using: (https://numpy.org/doc/stable/reference/generated/numpy.zeros.html)
     night_cream_profile['Under20'] = user_input['Under20']
     night_cream_profile['20s'] = user_input['20s']
@@ -214,9 +217,10 @@ def recommend():
     night_cream_profile['Liquid'] = user_input['Liquid']
     night_cream_profile['Lotion'] = user_input['Lotion']
     night_cream_profile['Oil'] = user_input['Oil']
+    night_cream_profile['rating'] = 1.5
     
-    night_cream_recommendations = np.dot(dummified_night_cream.values, night_cream_profile.values)
-    night_cream_recommendations = pd.Series(night_cream_recommendations, index=dummified_night_cream.index)
+    night_cream_recommendations = np.dot(recommender_night_cream.values, night_cream_profile.values)
+    night_cream_recommendations = pd.Series(night_cream_recommendations, index=recommender_night_cream.index)
     recommended_night_cream = night_cream_recommendations.sort_values(ascending = False).index[0]
     
     night_cream_name = night_cream_pdt_details[night_cream_pdt_details['unique_id'] == recommended_night_cream]['pdt_name'].values[0]
@@ -226,7 +230,7 @@ def recommend():
     night_cream_image = night_cream_pdt_details[night_cream_pdt_details['unique_id'] == recommended_night_cream]['pdt_images'].values[0]
     
     # Sunscreen recommendation
-    sunscreen_columns = dummified_sunscreen.columns
+    sunscreen_columns = recommender_sunscreen.columns
     sunscreen_profile = pd.Series(data = np.zeros(len(sunscreen_columns)), index = sunscreen_columns) # initialize 0s for all genres to create new user vector using: (https://numpy.org/doc/stable/reference/generated/numpy.zeros.html)
     sunscreen_profile['Under20'] = user_input['Under20']
     sunscreen_profile['20s'] = user_input['20s']
@@ -259,9 +263,10 @@ def recommend():
     sunscreen_profile['Lotion'] = user_input['Lotion']
     sunscreen_profile['Oil'] = user_input['Oil']
     sunscreen_profile['Spray'] = user_input['Spray']
+    sunscreen_profile['rating'] = 1.5
     
-    sunscreen_recommendations = np.dot(dummified_sunscreen.values, sunscreen_profile.values)
-    sunscreen_recommendations = pd.Series(sunscreen_recommendations, index=dummified_sunscreen.index)
+    sunscreen_recommendations = np.dot(recommender_sunscreen.values, sunscreen_profile.values)
+    sunscreen_recommendations = pd.Series(sunscreen_recommendations, index=recommender_sunscreen.index)
     recommended_sunscreen = sunscreen_recommendations.sort_values(ascending = False).index[0]
     
     sunscreen_name = sunscreen_pdt_details[sunscreen_pdt_details['unique_id'] == recommended_sunscreen]['pdt_name'].values[0]
