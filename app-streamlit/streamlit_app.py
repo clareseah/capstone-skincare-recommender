@@ -235,7 +235,7 @@ if st.button('Show Recommendation'):
                   'Gel':formula_gel, 'Liquid':formula_liquid, 'LoosePowder':formulation_loose_powder, 'Lotion':formula_lotion, 'Oil':formula_oil, 
                   'Powder':formula_powder, 'Sheet':formula_sheet, 'Spray':formula_spray, 'Wipe':formula_wipe}
     
-    api_url = 'https://capstone-2h5cv6z6ba-as.a.run.app'
+    api_url = 'https://cosskin-3py4usdxgq-as.a.run.app'
     api_route = '/recommendations'
 
     response = requests.post(f'{api_url}{api_route}', json=json.dumps(user_input)) # json.dumps() converts dict to JSON
