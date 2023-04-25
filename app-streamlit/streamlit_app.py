@@ -109,121 +109,119 @@ elif skin_type == 'Sensitive':
     type_sensitive = 1
 
 if 'Ageing' in skin_concerns:
-    concerns_ageing = 1
+    concerns_ageing = 3
 else:
     concerns_ageing = 0
 if 'Blackheads' in skin_concerns:
-    concerns_blackheads = 1
+    concerns_blackheads = 3
 else:
     concerns_blackheads = 0
 if 'Blemishes' in skin_concerns:
-    concerns_blemishes = 1
+    concerns_blemishes = 3
 else:
     concerns_blemishes = 0
 if 'Dark Circles' in skin_concerns:
-    concerns_darkcircles = 1
+    concerns_darkcircles = 3
 else:
     concerns_darkcircles = 0
 if 'Dryness' in skin_concerns:
-    concerns_dryness = 1
+    concerns_dryness = 3
 else:
     concerns_dryness = 0
 if 'Dullness' in skin_concerns:
-    concerns_dullness = 1
+    concerns_dullness = 3
 else:
     concerns_dullness = 0
 if 'Fine Lines & Wrinkles' in skin_concerns:
-    concerns_finelines_wrinkles = 1
+    concerns_finelines_wrinkles = 3
 else: 
     concerns_finelines_wrinkles = 0
 if 'Firmness & Elasticity' in skin_concerns:
-    concerns_firmness_elasticity = 1
+    concerns_firmness_elasticity = 3
 else:
     concerns_firmness_elasticity = 0
 if 'Oiliness' in skin_concerns:
-    concerns_oiliness = 1
+    concerns_oiliness = 3
 else: 
     concerns_oiliness = 0
 if 'Pigmentation & Dark Spots' in skin_concerns:
-    concerns_pigmentation_darkspots = 1
+    concerns_pigmentation_darkspots = 3
 else:
     concerns_pigmentation_darkspots = 0
 if 'Puffiness' in skin_concerns:
-    concerns_puffiness = 1
+    concerns_puffiness = 3
 else: 
     concerns_puffiness = 0
 if 'Uneven Skin Texture' in skin_concerns:
-    concerns_uneven_skin_texture = 1
+    concerns_uneven_skin_texture = 3
 else: 
     concerns_uneven_skin_texture = 0
 if 'Uneven Skin Tone' in skin_concerns:
-    concerns_uneven_skin_tone = 1
+    concerns_uneven_skin_tone = 3
 else: 
     concerns_uneven_skin_tone = 0
 if 'Visible Pores' in skin_concerns:
-    concerns_visible_pores = 1
+    concerns_visible_pores = 3
 else:
     concerns_visible_pores = 0
     
 if 'Balm' in formulation:
-    formula_balm = 1
+    formula_balm = 2
 else:
     formula_balm = 0
 if 'Bar' in formulation:
-    formula_bar = 1
+    formula_bar = 2
 else: 
     formula_bar = 0
 if 'Clay/Mud' in formulation:
-    formula_clay_mud = 1
+    formula_clay_mud = 2
 else: 
     formula_clay_mud = 0
 if 'Cream' in formulation:
-    formula_cream = 1
+    formula_cream = 2
 else:
     formula_cream = 0
 if 'Foam' in formulation:
-    formula_foam = 1
+    formula_foam = 2
 else:
     formula_foam = 0
 if 'Gel' in formulation:
-    formula_gel = 1
+    formula_gel = 2
 else:
     formula_gel = 0
 if 'Liquid' in formulation:
-    formula_liquid = 1
+    formula_liquid = 2
 else:
     formula_liquid = 0
 if 'Loose Powder' in formulation:
-    formulation_loose_powder = 1
+    formulation_loose_powder = 2
 else:
     formulation_loose_powder = 0
 if 'Lotion' in formulation:
-    formula_lotion = 1
+    formula_lotion = 2
 else:
     formula_lotion = 0
 if 'Oil' in formulation:
-    formula_oil = 1
+    formula_oil = 2
 else:
     formula_oil = 0
 if 'Powder' in formulation:
-    formula_powder = 1
+    formula_powder = 2
 else:
     formula_powder = 0
 if 'Sheet' in formulation:
-    formula_sheet = 1
+    formula_sheet = 2
 else: 
     formula_sheet = 0
 if 'Spray' in formulation:
-    formula_spray = 1
+    formula_spray = 2
 else:
     formula_spray = 0
 if 'Wipe' in formulation:
-    formula_wipe = 1
+    formula_wipe = 2
 else:
     formula_wipe = 0   
     
-#submit = st.button('Show Recommendations')
-#user_input = {'Skin type': skin_type, 'Skin concerns': skin_concerns, 'Formulation': formulation, 'Skin age': skin_age}
 if st.button('Show Recommendation'):
     
     user_input = {'Under20':age_under20, '20s':age_20s, '30s':age_30s, '40s':age_40s, '50+':age_50s, 
@@ -509,10 +507,22 @@ def add_bg_from_url():
             color: rgba(254, 181, 200);
         }}        
                       
-        .css-1offfwp p.footer, .css-1fv8s86 p.footer {{
+        .css-5rimss p {{
             font-size: 16px;
             margin-top: auto 10px;
+            color: #f65282;
         }}
+        
+         a.footer {{
+            color: #f65282;
+            text-decoration: none;
+        }}
+
+        a:hover.footer {{
+            color: #ffc4c0;
+            transition: all 200ms ease-in-out;
+        }}
+        
         
         .css-1offfwp i, .css-1fv8s86 i{{
             font-size: 22px;
@@ -526,16 +536,7 @@ def add_bg_from_url():
             transition: all 200ms ease-in-out;
         }}
         
-        .css-1offfwp a.footer, .css-1fv8s86 a.footer {{
-            color: #f65282;
-            text-decoration: none;
-        }}
-
-        .css-1offfwp a:hover.footer, .css-1fv8s86 a:hover {{
-            color: #ffc4c0;
-            transition: all 200ms ease-in-out;
-        }}
-        
+       
          </style>
          """,
          unsafe_allow_html=True
